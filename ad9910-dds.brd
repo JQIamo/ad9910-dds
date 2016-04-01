@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -1816,7 +1816,7 @@ design rules under a new name.</description>
 <vertex x="33.2486" y="22.225"/>
 <vertex x="33.2486" y="12.1158"/>
 <vertex x="54.864" y="12.1158"/>
-<vertex x="55.372" y="12.1412"/>
+<vertex x="55.245" y="12.0142"/>
 <vertex x="55.245" y="10.0584"/>
 <vertex x="55.5244" y="0"/>
 <vertex x="0" y="0"/>
@@ -2584,7 +2584,7 @@ design rules under a new name.</description>
 <contactref element="RPD2" pad="P$1"/>
 <contactref element="RPD1" pad="P$1"/>
 <via x="49.911" y="40.9956" extent="1-16" drill="0.381"/>
-<via x="54.0512" y="40.4368" extent="1-16" drill="0.381"/>
+<via x="54.3052" y="40.4368" extent="1-16" drill="0.381"/>
 <wire x1="38.2124" y1="17.6194" x2="38.2124" y2="16.6008" width="0.254" layer="1"/>
 <wire x1="38.2124" y1="16.6008" x2="38.3794" y2="16.4338" width="0.254" layer="1"/>
 <wire x1="38.3794" y1="16.4338" x2="38.3794" y2="15.7734" width="0.254" layer="1"/>
@@ -2673,8 +2673,8 @@ design rules under a new name.</description>
 <vertex x="42.1386" y="13.5636"/>
 <vertex x="42.1386" y="20.8788"/>
 </polygon>
-<via x="35.7632" y="36.2712" extent="1-16" drill="0.5"/>
-<via x="38.6334" y="36.1696" extent="1-16" drill="0.5"/>
+<via x="35.7632" y="36.2712" extent="1-16" drill="0.381"/>
+<via x="38.6334" y="36.1696" extent="1-16" drill="0.381"/>
 <wire x1="35.2124" y1="32.4694" x2="35.2124" y2="33.2566" width="0.2032" layer="1"/>
 <wire x1="35.2124" y1="33.2566" x2="35.56" y2="33.6042" width="0.2032" layer="1"/>
 <wire x1="35.56" y1="33.6042" x2="35.56" y2="34.7416" width="0.2032" layer="1"/>
@@ -2780,7 +2780,7 @@ design rules under a new name.</description>
 <vertex x="42.164" y="26.8478"/>
 </polygon>
 <via x="34.0614" y="36.6776" extent="1-16" drill="0.5"/>
-<via x="40.259" y="35.941" extent="1-16" drill="0.5"/>
+<via x="40.259" y="35.941" extent="1-16" drill="0.381"/>
 <wire x1="33.8836" y1="34.0106" x2="33.8836" y2="34.7416" width="0.2032" layer="1"/>
 <wire x1="33.8836" y1="34.7416" x2="33.8892" y2="34.7472" width="0.2286" layer="1"/>
 <wire x1="33.8836" y1="34.0106" x2="34.2138" y2="33.6804" width="0.2032" layer="1"/>
