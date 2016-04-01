@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,18 +53,18 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="Invisible" color="7" fill="1" visible="no" active="no"/>
-<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="Invisible" color="7" fill="1" visible="yes" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -1599,7 +1599,7 @@ Supply Voltage: 2.7 V ~ 5.5 V</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY" value="887-2498-1-ND" constant="no"/>
+<attribute name="PARTNO" value="887-2498-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2593,61 +2593,55 @@ Low profile connectors, straight&lt;p&gt;
 </classes>
 <parts>
 <part name="U1" library="Neal_DDS-library" deviceset="AD9910" device="">
-<attribute name="DIGIKEY" value="AD9910BSVZ-REELCT-ND"/>
+<attribute name="PARTNO" value="AD9910BSVZ-REELCT-ND"/>
 </part>
-<part name="C2" library="rlc-jqi" deviceset="CAP" device="0603" value="56nF">
-<attribute name="DIGIKEY" value="478-1236-1-ND"/>
-</part>
-<part name="C1" library="rlc-jqi" deviceset="CAP" device="0603" value="10nF">
-<attribute name="DIGIKEY" value="490-1512-2-ND"/>
-</part>
-<part name="R2" library="rlc-jqi" deviceset="RES" device="0603" value="143">
-<attribute name="DIGIKEY" value="RMCF0603FT140RCT-ND"/>
-</part>
+<part name="C2" library="rlc-jqi" deviceset="CAP" device="0603" value="150pF"/>
+<part name="C1" library="rlc-jqi" deviceset="CAP" device="0603" value="15pF"/>
+<part name="R2" library="rlc-jqi" deviceset="RES" device="0603" value="2.37k"/>
 <part name="AGND8" library="supply1" deviceset="AGND" device=""/>
 <part name="CRFCL1" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="CRFCL2" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="AGND32" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND39" library="supply1" deviceset="AGND" device=""/>
 <part name="XO" library="Neal_DDS-library" deviceset="TXC-7NXX.XXX" device=""/>
 <part name="CXO" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1u">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="AGND49" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND50" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND54" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND53" library="supply1" deviceset="AGND" device=""/>
 <part name="R1" library="jqi_passives" deviceset="R_SMD" device="R0603" value="50">
-<attribute name="DIGIKEY" value="A110418CT-ND"/>
+<attribute name="PARTNO" value="A110418CT-ND"/>
 </part>
 <part name="AGND34" library="supply1" deviceset="AGND" device=""/>
 <part name="CF15" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0612" value="10u">
-<attribute name="DIGIKEY" value="445-4072-1-ND"/>
+<attribute name="PARTNO" value="445-4072-1-ND"/>
 </part>
 <part name="L2" library="jqi_passives" deviceset="L_FERRITE_SMD" device="LFERRITE_0603" value="BLM">
-<attribute name="DIGIKEY" value="490-5215-1-ND"/>
+<attribute name="PARTNO" value="490-5215-1-ND"/>
 </part>
 <part name="CF13" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0306" value="1uF">
-<attribute name="DIGIKEY" value="C0816X5R0J105M050AC"/>
+<attribute name="PARTNO" value="C0816X5R0J105M050AC"/>
 </part>
 <part name="CF14" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0306" value="1uF">
-<attribute name="DIGIKEY" value="C0816X5R0J105M050AC"/>
+<attribute name="PARTNO" value="C0816X5R0J105M050AC"/>
 </part>
 <part name="CF18" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0612" value="10u">
-<attribute name="DIGIKEY" value="445-4072-1-ND"/>
+<attribute name="PARTNO" value="445-4072-1-ND"/>
 </part>
 <part name="L1" library="jqi_passives" deviceset="L_FERRITE_SMD" device="LFERRITE_0603" value="BLM">
-<attribute name="DIGIKEY" value="490-5215-1-ND"/>
+<attribute name="PARTNO" value="490-5215-1-ND"/>
 </part>
 <part name="CF16" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0306" value="1uF">
-<attribute name="DIGIKEY" value="C0816X5R0J105M050AC"/>
+<attribute name="PARTNO" value="C0816X5R0J105M050AC"/>
 </part>
 <part name="CF17" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0306" value="1uF">
-<attribute name="DIGIKEY" value="C0816X5R0J105M050AC"/>
+<attribute name="PARTNO" value="C0816X5R0J105M050AC"/>
 </part>
 <part name="SUPPLY6" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="DGND" device=""/>
@@ -2656,45 +2650,45 @@ Low profile connectors, straight&lt;p&gt;
 <part name="SUPPLY10" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="DGND" device=""/>
 <part name="C70" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="C71" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="C72" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="C73" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="C74" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="C75" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="SUPPLY12" library="supply2" deviceset="DGND" device=""/>
 <part name="C76" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="C77" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="C78" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="C79" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="C80" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="C81" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="SUPPLY13" library="supply2" deviceset="DGND" device=""/>
 <part name="C82" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="SUPPLY14" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="DGND" device=""/>
@@ -2703,147 +2697,147 @@ Low profile connectors, straight&lt;p&gt;
 <part name="SUPPLY18" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY19" library="supply2" deviceset="DGND" device=""/>
 <part name="IC5" library="Neal_DDS-library" deviceset="REG113" device="">
-<attribute name="DIGIKEY" value="REG113EA3.3/250CT-ND"/>
+<attribute name="PARTNO" value="REG113EA3.3/250CT-ND"/>
 </part>
 <part name="AGND7" library="supply1" deviceset="AGND" device=""/>
 <part name="CF1" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0612" value="10u">
-<attribute name="DIGIKEY" value="445-4072-1-ND"/>
+<attribute name="PARTNO" value="445-4072-1-ND"/>
 </part>
 <part name="AGND9" library="supply1" deviceset="AGND" device=""/>
 <part name="L3" library="jqi_passives" deviceset="L_FERRITE_SMD" device="LFERRITE_0603" value="BLM">
-<attribute name="DIGIKEY" value="490-5215-1-ND"/>
+<attribute name="PARTNO" value="490-5215-1-ND"/>
 </part>
 <part name="CF2" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0306" value="1uF">
-<attribute name="DIGIKEY" value="C0816X5R0J105M050AC"/>
+<attribute name="PARTNO" value="C0816X5R0J105M050AC"/>
 </part>
 <part name="CF3" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0306" value="1uF">
-<attribute name="DIGIKEY" value="C0816X5R0J105M050AC"/>
+<attribute name="PARTNO" value="C0816X5R0J105M050AC"/>
 </part>
 <part name="AGND10" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND18" library="supply1" deviceset="AGND" device=""/>
 <part name="C83" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="C84" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="C85" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="AGND19" library="supply1" deviceset="AGND" device=""/>
 <part name="CNR" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="0.01uF">
-<attribute name="DIGIKEY" value="399-1091-1-ND"/>
+<attribute name="PARTNO" value="399-1091-1-ND"/>
 </part>
 <part name="AGND20" library="supply1" deviceset="AGND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="IC4" library="MojoDDS-library" deviceset="MIC5247" device="">
-<attribute name="DIGIKEY" value="576-1288-1-ND"/>
+<attribute name="PARTNO" value="576-1288-1-ND"/>
 </part>
 <part name="CB4" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.01u">
-<attribute name="DIGIKEY" value="478-5503-1-ND"/>
+<attribute name="PARTNO" value="478-5503-1-ND"/>
 </part>
 <part name="AGND28" library="supply1" deviceset="AGND" device=""/>
 <part name="CF4" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0612" value="10u">
-<attribute name="DIGIKEY" value="445-4072-1-ND"/>
+<attribute name="PARTNO" value="445-4072-1-ND"/>
 </part>
 <part name="AGND30" library="supply1" deviceset="AGND" device=""/>
 <part name="L7" library="jqi_passives" deviceset="L_FERRITE_SMD" device="LFERRITE_0603" value="BLM">
-<attribute name="DIGIKEY" value="490-5215-1-ND"/>
+<attribute name="PARTNO" value="490-5215-1-ND"/>
 </part>
 <part name="CF5" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0306" value="1uF">
-<attribute name="DIGIKEY" value="C0816X5R0J105M050AC"/>
+<attribute name="PARTNO" value="C0816X5R0J105M050AC"/>
 </part>
 <part name="CF6" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0306" value="1uF">
-<attribute name="DIGIKEY" value="C0816X5R0J105M050AC"/>
+<attribute name="PARTNO" value="C0816X5R0J105M050AC"/>
 </part>
 <part name="AGND35" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND36" library="supply1" deviceset="AGND" device=""/>
 <part name="C86" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="AGND37" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND38" library="supply1" deviceset="AGND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="IC2" library="MojoDDS-library" deviceset="MIC5247" device="">
-<attribute name="DIGIKEY" value="576-1288-1-ND"/>
+<attribute name="PARTNO" value="576-1288-1-ND"/>
 </part>
 <part name="CB2" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.01u">
-<attribute name="DIGIKEY" value="478-5503-1-ND"/>
+<attribute name="PARTNO" value="478-5503-1-ND"/>
 </part>
 <part name="AGND1" library="supply1" deviceset="AGND" device=""/>
 <part name="CF7" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0612" value="10u">
-<attribute name="DIGIKEY" value="445-4072-1-ND"/>
+<attribute name="PARTNO" value="445-4072-1-ND"/>
 </part>
 <part name="AGND3" library="supply1" deviceset="AGND" device=""/>
 <part name="L5" library="jqi_passives" deviceset="L_FERRITE_SMD" device="LFERRITE_0603" value="BLM">
-<attribute name="DIGIKEY" value="490-5215-1-ND"/>
+<attribute name="PARTNO" value="490-5215-1-ND"/>
 </part>
 <part name="CF8" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0306" value="1uF">
-<attribute name="DIGIKEY" value="C0816X5R0J105M050AC"/>
+<attribute name="PARTNO" value="C0816X5R0J105M050AC"/>
 </part>
 <part name="CF9" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0306" value="1uF">
-<attribute name="DIGIKEY" value="C0816X5R0J105M050AC"/>
+<attribute name="PARTNO" value="C0816X5R0J105M050AC"/>
 </part>
 <part name="AGND4" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND5" library="supply1" deviceset="AGND" device=""/>
 <part name="C87" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="AGND6" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND11" library="supply1" deviceset="AGND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="IC3" library="MojoDDS-library" deviceset="MIC5247" device="">
-<attribute name="DIGIKEY" value="576-1288-1-ND"/>
+<attribute name="PARTNO" value="576-1288-1-ND"/>
 </part>
 <part name="CB3" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.01u">
-<attribute name="DIGIKEY" value="478-5503-1-ND"/>
+<attribute name="PARTNO" value="478-5503-1-ND"/>
 </part>
 <part name="AGND12" library="supply1" deviceset="AGND" device=""/>
 <part name="CF10" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0612" value="10u">
-<attribute name="DIGIKEY" value="445-4072-1-ND"/>
+<attribute name="PARTNO" value="445-4072-1-ND"/>
 </part>
 <part name="AGND14" library="supply1" deviceset="AGND" device=""/>
 <part name="L6" library="jqi_passives" deviceset="L_FERRITE_SMD" device="LFERRITE_0603" value="BLM">
-<attribute name="DIGIKEY" value="490-5215-1-ND"/>
+<attribute name="PARTNO" value="490-5215-1-ND"/>
 </part>
 <part name="CF11" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0306" value="1uF">
-<attribute name="DIGIKEY" value="C0816X5R0J105M050AC"/>
+<attribute name="PARTNO" value="C0816X5R0J105M050AC"/>
 </part>
 <part name="CF12" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0306" value="1uF">
-<attribute name="DIGIKEY" value="C0816X5R0J105M050AC"/>
+<attribute name="PARTNO" value="C0816X5R0J105M050AC"/>
 </part>
 <part name="AGND15" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND16" library="supply1" deviceset="AGND" device=""/>
 <part name="C88" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="AGND17" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND21" library="supply1" deviceset="AGND" device=""/>
 <part name="C89" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="DIGIKEY" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="R3" library="rlc-jqi" deviceset="RES" device="0402" value="0">
-<attribute name="DIGIKEY" value="541-0.0YBCT-ND"/>
+<attribute name="PARTNO" value="541-0.0YBCT-ND"/>
 </part>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="R4" library="rlc-jqi" deviceset="RES" device="0603" value="2k">
-<attribute name="DIGIKEY" value="P2.00KHCT-ND"/>
+<attribute name="PARTNO" value="P2.00KHCT-ND"/>
 </part>
 <part name="R5" library="rlc-jqi" deviceset="RES" device="0603" value="1k">
-<attribute name="DIGIKEY" value="311-1.0KGRCT-ND"/>
+<attribute name="PARTNO" value="311-1.0KGRCT-ND"/>
 </part>
 <part name="AGND22" library="supply1" deviceset="AGND" device=""/>
 <part name="R6" library="rlc-jqi" deviceset="RES" device="0402" value="0">
-<attribute name="DIGIKEY" value="541-0.0YBCT-ND"/>
+<attribute name="PARTNO" value="541-0.0YBCT-ND"/>
 </part>
 <part name="SV2" library="con-harting-ml" deviceset="ML26" device="">
-<attribute name="DIGIKEY" value="S9173-ND"/>
+<attribute name="PARTNO" value="S9173-ND"/>
 </part>
 <part name="SUPPLY20" library="supply2" deviceset="DGND" device=""/>
 <part name="RSET" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
-<attribute name="DIGIKEY" value="311-10KGRCT-ND"/>
+<attribute name="PARTNO" value="311-10KGRCT-ND"/>
 </part>
 <part name="LP1" library="Neal_DDS-library" deviceset="LFCN" device="">
 <attribute name="MINICIRCUITS" value="LFCN-320D+"/>
@@ -2857,25 +2851,25 @@ Low profile connectors, straight&lt;p&gt;
 <part name="AGND24" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND27" library="supply1" deviceset="AGND" device=""/>
 <part name="L4" library="jqi_passives" deviceset="L_FERRITE_SMD" device="LFERRITE_0603" value="BLM">
-<attribute name="DIGIKEY" value="490-5215-1-ND"/>
+<attribute name="PARTNO" value="490-5215-1-ND"/>
 </part>
 <part name="AGND29" library="supply1" deviceset="AGND" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="DGND" device=""/>
 <part name="CP4" library="rlc-jqi" deviceset="CAP-POL" device="PANASONIC_F" value="220 uF">
-<attribute name="DIGIKEY" value="PCE3955CT-ND"/>
+<attribute name="PARTNO" value="PCE3955CT-ND"/>
 </part>
 <part name="C69" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0306" value="1uF">
-<attribute name="DIGIKEY" value="C0816X5R0J105M050AC"/>
+<attribute name="PARTNO" value="C0816X5R0J105M050AC"/>
 </part>
 <part name="AGND33" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND41" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND42" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND25" library="supply1" deviceset="AGND" device=""/>
 <part name="RLOAD1" library="jqi_passives" deviceset="R_SMD" device="R0402" value="50">
-<attribute name="DIGIKEY" value="RR05R49.9DCT-ND "/>
+<attribute name="PARTNO" value="RR05R49.9DCT-ND "/>
 </part>
 <part name="RLOAD2" library="jqi_passives" deviceset="R_SMD" device="R0402" value="50">
-<attribute name="DIGIKEY" value="RR05R49.9DCT-ND"/>
+<attribute name="PARTNO" value="RR05R49.9DCT-ND"/>
 </part>
 <part name="AGND26" library="supply1" deviceset="AGND" device=""/>
 <part name="CIN1" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="DNP"/>
@@ -2894,33 +2888,34 @@ Low profile connectors, straight&lt;p&gt;
 <part name="SUPPLY21" library="supply2" deviceset="DGND" device=""/>
 <part name="RPD1" library="jqi_passives" deviceset="R_SMD" device="R0402" value="4.7k"/>
 <part name="IC1" library="Neal_DDS-library" deviceset="REG113" device="">
-<attribute name="DIGIKEY" value="REG113EA3.3/250CT-ND"/>
+<attribute name="PARTNO" value="REG113EA3.3/250CT-ND"/>
 </part>
 <part name="CNR1" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="0.01uF">
-<attribute name="DIGIKEY" value="399-1091-1-ND"/>
+<attribute name="PARTNO" value="399-1091-1-ND"/>
 </part>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="C6" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0306" value="1uF">
-<attribute name="DIGIKEY" value="C0816X5R0J105M050AC"/>
+<attribute name="PARTNO" value="C0816X5R0J105M050AC"/>
 </part>
 <part name="SUPPLY4" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY25" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY26" library="supply2" deviceset="DGND" device=""/>
 <part name="IC6" library="MojoDDS-library" deviceset="MIC5247" device="">
-<attribute name="DIGIKEY" value="576-1288-1-ND"/>
+<attribute name="PARTNO" value="576-1288-1-ND"/>
 </part>
 <part name="CB1" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="0.01u">
-<attribute name="DIGIKEY" value="399-1091-1-ND"/>
+<attribute name="PARTNO" value="399-1091-1-ND"/>
 </part>
 <part name="SUPPLY3" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="DGND" device=""/>
 <part name="R7" library="rlc-jqi" deviceset="RES" device="0402" value="DNP (0)">
-<attribute name="DIGIKEY" value="541-0.0YBCT-ND"/>
+<attribute name="PARTNO" value="541-0.0YBCT-ND"/>
 </part>
 <part name="R8" library="rlc-jqi" deviceset="RES" device="0402" value="0">
-<attribute name="DIGIKEY" value="541-0.0YBCT-ND"/>
+<attribute name="PARTNO" value="541-0.0YBCT-ND"/>
 </part>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="C5" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="1nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -2935,36 +2930,30 @@ Check DROVER</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="86.36" y="53.34" rot="R90">
-<attribute name="DIGIKEY" x="86.36" y="53.34" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNO" x="86.36" y="53.34" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C2" gate="G$1" x="58.42" y="-38.1" rot="R90">
-<attribute name="DIGIKEY" x="58.42" y="-38.1" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
-<instance part="C1" gate="G$1" x="66.04" y="-27.94" rot="R90">
-<attribute name="DIGIKEY" x="66.04" y="-27.94" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
-<instance part="R2" gate="G$1" x="58.42" y="-22.86" rot="R90">
-<attribute name="DIGIKEY" x="58.42" y="-22.86" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
+<instance part="C2" gate="G$1" x="58.42" y="-38.1" rot="R90"/>
+<instance part="C1" gate="G$1" x="66.04" y="-27.94" rot="R90"/>
+<instance part="R2" gate="G$1" x="58.42" y="-22.86" rot="R90"/>
 <instance part="AGND8" gate="VR1" x="66.04" y="-5.08"/>
 <instance part="CRFCL1" gate="G$1" x="0" y="48.26" rot="R90">
-<attribute name="DIGIKEY" x="0" y="48.26" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNO" x="0" y="48.26" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="CRFCL2" gate="G$1" x="22.86" y="35.56" rot="R180">
-<attribute name="DIGIKEY" x="22.86" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="PARTNO" x="22.86" y="35.56" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="AGND32" gate="VR1" x="20.32" y="53.34"/>
 <instance part="AGND39" gate="VR1" x="139.7" y="104.14"/>
 <instance part="XO" gate="G$1" x="-104.14" y="33.02"/>
 <instance part="CXO" gate="G$1" x="-137.16" y="33.02">
-<attribute name="DIGIKEY" x="-137.16" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-137.16" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND49" gate="VR1" x="-137.16" y="20.32"/>
 <instance part="AGND50" gate="VR1" x="-76.2" y="25.4"/>
 <instance part="AGND54" gate="VR1" x="22.86" y="25.4"/>
 <instance part="AGND53" gate="VR1" x="-48.26" y="10.16"/>
 <instance part="R1" gate="G$1" x="-27.94" y="25.4" rot="R180">
-<attribute name="DIGIKEY" x="-27.94" y="25.4" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="PARTNO" x="-27.94" y="25.4" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="AGND34" gate="VR1" x="-15.24" y="17.78"/>
 <instance part="SUPPLY14" gate="G$1" x="93.98" y="-10.16"/>
@@ -2974,25 +2963,25 @@ Check DROVER</text>
 <instance part="SUPPLY18" gate="G$1" x="121.92" y="109.22"/>
 <instance part="SUPPLY19" gate="G$1" x="144.78" y="71.12"/>
 <instance part="R3" gate="G$1" x="-22.86" y="35.56">
-<attribute name="DIGIKEY" x="-22.86" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-22.86" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V5" gate="G$1" x="-137.16" y="45.72"/>
 <instance part="R4" gate="G$1" x="-66.04" y="48.26">
-<attribute name="DIGIKEY" x="-66.04" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-66.04" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="-58.42" y="38.1" rot="R90">
-<attribute name="DIGIKEY" x="-58.42" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNO" x="-58.42" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="AGND22" gate="VR1" x="-58.42" y="25.4"/>
 <instance part="R6" gate="G$1" x="-22.86" y="48.26">
-<attribute name="DIGIKEY" x="-22.86" y="48.26" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-22.86" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SV2" gate="1" x="83.82" y="142.24" rot="R90">
-<attribute name="DIGIKEY" x="83.82" y="142.24" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNO" x="83.82" y="142.24" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SUPPLY20" gate="G$1" x="91.44" y="106.68"/>
 <instance part="RSET" gate="G$1" x="30.48" y="63.5">
-<attribute name="DIGIKEY" x="30.48" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="30.48" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LP1" gate="G$1" x="-35.56" y="99.06" rot="R180">
 <attribute name="MINICIRCUITS" x="-35.56" y="99.06" size="1.778" layer="96" rot="R180" display="off"/>
@@ -3008,10 +2997,10 @@ Check DROVER</text>
 <instance part="AGND42" gate="VR1" x="-106.68" y="86.36"/>
 <instance part="AGND25" gate="VR1" x="-71.12" y="81.28"/>
 <instance part="RLOAD1" gate="G$1" x="-71.12" y="91.44" rot="R90">
-<attribute name="DIGIKEY" x="-71.12" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNO" x="-71.12" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="RLOAD2" gate="G$1" x="-68.58" y="71.12" rot="R90">
-<attribute name="DIGIKEY" x="-68.58" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNO" x="-68.58" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="AGND26" gate="VR1" x="-68.58" y="60.96"/>
 <instance part="CIN1" gate="G$1" x="-78.74" y="96.52" rot="R270"/>
@@ -3030,11 +3019,12 @@ Check DROVER</text>
 <instance part="SUPPLY21" gate="G$1" x="170.18" y="149.86"/>
 <instance part="RPD1" gate="G$1" x="121.92" y="124.46" rot="R90"/>
 <instance part="R7" gate="G$1" x="-132.08" y="60.96">
-<attribute name="DIGIKEY" x="-132.08" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-132.08" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="-121.92" y="53.34">
-<attribute name="DIGIKEY" x="-121.92" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-121.92" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="C5" gate="G$1" x="-60.96" y="55.88" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -3667,6 +3657,10 @@ Check DROVER</text>
 <wire x1="-76.2" y1="35.56" x2="-76.2" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="P$1"/>
 <wire x1="-76.2" y1="48.26" x2="-71.12" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="-66.04" y1="55.88" x2="-76.2" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="55.88" x2="-76.2" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-76.2" y="48.26"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -3678,6 +3672,8 @@ Check DROVER</text>
 <junction x="-58.42" y="48.26"/>
 <pinref part="R6" gate="G$1" pin="P$1"/>
 <wire x1="-58.42" y1="48.26" x2="-27.94" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="-58.42" y1="55.88" x2="-58.42" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SYNC_CLK" class="0">
@@ -3717,44 +3713,21 @@ Check DROVER</text>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="CIN2" gate="G$1" pin="2"/>
-<wire x1="-99.06" y1="76.2" x2="-93.98" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-99.06" y1="76.2" x2="-99.06" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="LP2" gate="G$1" pin="RF_OUT"/>
 <pinref part="RLOAD2" gate="G$1" pin="2"/>
 <wire x1="-68.58" y1="76.2" x2="-53.34" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="76.2" x2="-83.82" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="CIN2" gate="G$1" pin="1"/>
-<wire x1="-83.82" y1="76.2" x2="-68.58" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-99.06" y1="81.28" x2="-83.82" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="81.28" x2="-83.82" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="O+" gate="G$1" pin="1"/>
-<wire x1="-106.68" y1="76.2" x2="-99.06" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-83.82" y="76.2"/>
-<junction x="-99.06" y="76.2"/>
+<wire x1="-86.36" y1="76.2" x2="-68.58" y2="76.2" width="0.1524" layer="91"/>
 <junction x="-68.58" y="76.2"/>
 </segment>
 </net>
 <net name="O-" class="0">
 <segment>
-<wire x1="-83.82" y1="96.52" x2="-86.36" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="CIN1" gate="G$1" pin="2"/>
-<wire x1="-86.36" y1="96.52" x2="-88.9" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="96.52" x2="-86.36" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="LP1" gate="G$1" pin="RF_OUT"/>
-<pinref part="RLOAD1" gate="G$1" pin="2"/>
-<wire x1="-71.12" y1="96.52" x2="-53.34" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="CIN1" gate="G$1" pin="1"/>
-<wire x1="-76.2" y1="96.52" x2="-73.66" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="-73.66" y1="96.52" x2="-71.12" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="101.6" x2="-73.66" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="-73.66" y1="101.6" x2="-73.66" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="96.52" x2="-88.9" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="O-" gate="G$1" pin="1"/>
 <wire x1="-106.68" y1="101.6" x2="-88.9" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="101.6" x2="-88.9" y2="96.52" width="0.1524" layer="91"/>
-<junction x="-71.12" y="96.52"/>
-<junction x="-73.66" y="96.52"/>
-<junction x="-86.36" y="96.52"/>
 </segment>
 </net>
 <net name="SYNC_IN_P" class="0">
@@ -3868,6 +3841,23 @@ Check DROVER</text>
 <junction x="-109.22" y="53.34"/>
 </segment>
 </net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="LP1" gate="G$1" pin="RF_OUT"/>
+<pinref part="RLOAD1" gate="G$1" pin="2"/>
+<wire x1="-71.12" y1="96.52" x2="-53.34" y2="96.52" width="0.1524" layer="91"/>
+<junction x="-71.12" y="96.52"/>
+<pinref part="CIN1" gate="G$1" pin="1"/>
+<wire x1="-76.2" y1="96.52" x2="-71.12" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="CIN2" gate="G$1" pin="2"/>
+<pinref part="O+" gate="G$1" pin="1"/>
+<wire x1="-106.68" y1="76.2" x2="-93.98" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -3875,28 +3865,28 @@ Check DROVER</text>
 </plain>
 <instances>
 <instance part="CF15" gate="G$1" x="119.38" y="25.4">
-<attribute name="DIGIKEY" x="119.38" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="119.38" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L2" gate="G$1" x="132.08" y="30.48">
-<attribute name="DIGIKEY" x="132.08" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="132.08" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CF13" gate="G$1" x="144.78" y="25.4">
-<attribute name="DIGIKEY" x="144.78" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="144.78" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CF14" gate="G$1" x="154.94" y="25.4">
-<attribute name="DIGIKEY" x="154.94" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="154.94" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CF18" gate="G$1" x="119.38" y="0">
-<attribute name="DIGIKEY" x="119.38" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="119.38" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L1" gate="G$1" x="132.08" y="5.08">
-<attribute name="DIGIKEY" x="132.08" y="5.08" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="132.08" y="5.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CF16" gate="G$1" x="144.78" y="0">
-<attribute name="DIGIKEY" x="144.78" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="144.78" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CF17" gate="G$1" x="154.94" y="0">
-<attribute name="DIGIKEY" x="154.94" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="154.94" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY6" gate="G$1" x="119.38" y="12.7"/>
 <instance part="SUPPLY7" gate="G$1" x="144.78" y="12.7"/>
@@ -3905,199 +3895,199 @@ Check DROVER</text>
 <instance part="SUPPLY10" gate="G$1" x="144.78" y="-12.7"/>
 <instance part="SUPPLY11" gate="G$1" x="119.38" y="-12.7"/>
 <instance part="C70" gate="G$1" x="180.34" y="25.4">
-<attribute name="DIGIKEY" x="180.34" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="180.34" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C71" gate="G$1" x="190.5" y="25.4">
-<attribute name="DIGIKEY" x="190.5" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="190.5" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C72" gate="G$1" x="200.66" y="25.4">
-<attribute name="DIGIKEY" x="200.66" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="200.66" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C73" gate="G$1" x="210.82" y="25.4">
-<attribute name="DIGIKEY" x="210.82" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="210.82" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C74" gate="G$1" x="220.98" y="25.4">
-<attribute name="DIGIKEY" x="220.98" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="220.98" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C75" gate="G$1" x="231.14" y="25.4">
-<attribute name="DIGIKEY" x="231.14" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="231.14" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY12" gate="G$1" x="180.34" y="12.7"/>
 <instance part="C76" gate="G$1" x="180.34" y="0">
-<attribute name="DIGIKEY" x="180.34" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="180.34" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C77" gate="G$1" x="190.5" y="0">
-<attribute name="DIGIKEY" x="190.5" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="190.5" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C78" gate="G$1" x="200.66" y="0">
-<attribute name="DIGIKEY" x="200.66" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="200.66" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C79" gate="G$1" x="210.82" y="0">
-<attribute name="DIGIKEY" x="210.82" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="210.82" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C80" gate="G$1" x="220.98" y="0">
-<attribute name="DIGIKEY" x="220.98" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="220.98" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C81" gate="G$1" x="231.14" y="0">
-<attribute name="DIGIKEY" x="231.14" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="231.14" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY13" gate="G$1" x="180.34" y="-12.7"/>
 <instance part="C82" gate="G$1" x="241.3" y="0">
-<attribute name="DIGIKEY" x="241.3" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="241.3" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC5" gate="G$1" x="-129.54" y="-139.7">
-<attribute name="DIGIKEY" x="-129.54" y="-139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-129.54" y="-139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND7" gate="VR1" x="-109.22" y="-157.48"/>
 <instance part="CF1" gate="G$1" x="-91.44" y="-137.16">
-<attribute name="DIGIKEY" x="-91.44" y="-137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-91.44" y="-137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND9" gate="VR1" x="-91.44" y="-147.32"/>
 <instance part="L3" gate="G$1" x="-78.74" y="-132.08">
-<attribute name="DIGIKEY" x="-78.74" y="-132.08" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-78.74" y="-132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CF2" gate="G$1" x="-66.04" y="-137.16">
-<attribute name="DIGIKEY" x="-66.04" y="-137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-66.04" y="-137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CF3" gate="G$1" x="-55.88" y="-137.16">
-<attribute name="DIGIKEY" x="-55.88" y="-137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-55.88" y="-137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND10" gate="VR1" x="-66.04" y="-147.32"/>
 <instance part="AGND18" gate="VR1" x="-55.88" y="-147.32"/>
 <instance part="C83" gate="G$1" x="-25.4" y="-137.16">
-<attribute name="DIGIKEY" x="-25.4" y="-137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-25.4" y="-137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C84" gate="G$1" x="-15.24" y="-137.16">
-<attribute name="DIGIKEY" x="-15.24" y="-137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-15.24" y="-137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C85" gate="G$1" x="-5.08" y="-137.16">
-<attribute name="DIGIKEY" x="-5.08" y="-137.16" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-5.08" y="-137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND19" gate="VR1" x="-30.48" y="-149.86"/>
 <instance part="CNR" gate="G$1" x="-152.4" y="-149.86">
-<attribute name="DIGIKEY" x="-152.4" y="-149.86" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-152.4" y="-149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND20" gate="VR1" x="-152.4" y="-160.02"/>
 <instance part="P+3" gate="1" x="-152.4" y="-127"/>
 <instance part="IC4" gate="G$1" x="48.26" y="-96.52">
-<attribute name="DIGIKEY" x="48.26" y="-96.52" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="48.26" y="-96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CB4" gate="G$1" x="63.5" y="-106.68">
-<attribute name="DIGIKEY" x="63.5" y="-106.68" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="63.5" y="-106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND28" gate="VR1" x="63.5" y="-116.84"/>
 <instance part="CF4" gate="G$1" x="99.06" y="-96.52">
-<attribute name="DIGIKEY" x="99.06" y="-96.52" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="99.06" y="-96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND30" gate="VR1" x="99.06" y="-106.68"/>
 <instance part="L7" gate="G$1" x="111.76" y="-91.44">
-<attribute name="DIGIKEY" x="111.76" y="-91.44" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="111.76" y="-91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CF5" gate="G$1" x="124.46" y="-96.52">
-<attribute name="DIGIKEY" x="124.46" y="-96.52" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="124.46" y="-96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CF6" gate="G$1" x="134.62" y="-96.52">
-<attribute name="DIGIKEY" x="134.62" y="-96.52" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="134.62" y="-96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND35" gate="VR1" x="124.46" y="-106.68"/>
 <instance part="AGND36" gate="VR1" x="134.62" y="-106.68"/>
 <instance part="C86" gate="G$1" x="160.02" y="-96.52">
-<attribute name="DIGIKEY" x="160.02" y="-96.52" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="160.02" y="-96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND37" gate="VR1" x="160.02" y="-106.68"/>
 <instance part="AGND38" gate="VR1" x="27.94" y="-106.68"/>
 <instance part="+3V1" gate="G$1" x="-93.98" y="-121.92"/>
 <instance part="+3V2" gate="G$1" x="30.48" y="-86.36"/>
 <instance part="IC2" gate="G$1" x="48.26" y="-139.7">
-<attribute name="DIGIKEY" x="48.26" y="-139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="48.26" y="-139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CB2" gate="G$1" x="63.5" y="-149.86">
-<attribute name="DIGIKEY" x="63.5" y="-149.86" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="63.5" y="-149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND1" gate="VR1" x="63.5" y="-160.02"/>
 <instance part="CF7" gate="G$1" x="99.06" y="-139.7">
-<attribute name="DIGIKEY" x="99.06" y="-139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="99.06" y="-139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND3" gate="VR1" x="99.06" y="-149.86"/>
 <instance part="L5" gate="G$1" x="111.76" y="-134.62">
-<attribute name="DIGIKEY" x="111.76" y="-134.62" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="111.76" y="-134.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CF8" gate="G$1" x="124.46" y="-139.7">
-<attribute name="DIGIKEY" x="124.46" y="-139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="124.46" y="-139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CF9" gate="G$1" x="134.62" y="-139.7">
-<attribute name="DIGIKEY" x="134.62" y="-139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="134.62" y="-139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND4" gate="VR1" x="124.46" y="-149.86"/>
 <instance part="AGND5" gate="VR1" x="134.62" y="-149.86"/>
 <instance part="C87" gate="G$1" x="154.94" y="-139.7">
-<attribute name="DIGIKEY" x="154.94" y="-139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="154.94" y="-139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND6" gate="VR1" x="154.94" y="-149.86"/>
 <instance part="AGND11" gate="VR1" x="27.94" y="-149.86"/>
 <instance part="+3V3" gate="G$1" x="30.48" y="-129.54"/>
 <instance part="IC3" gate="G$1" x="48.26" y="-177.8">
-<attribute name="DIGIKEY" x="48.26" y="-177.8" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="48.26" y="-177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CB3" gate="G$1" x="63.5" y="-187.96">
-<attribute name="DIGIKEY" x="63.5" y="-187.96" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="63.5" y="-187.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND12" gate="VR1" x="63.5" y="-198.12"/>
 <instance part="CF10" gate="G$1" x="99.06" y="-177.8">
-<attribute name="DIGIKEY" x="99.06" y="-177.8" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="99.06" y="-177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND14" gate="VR1" x="99.06" y="-187.96"/>
 <instance part="L6" gate="G$1" x="111.76" y="-172.72">
-<attribute name="DIGIKEY" x="111.76" y="-172.72" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="111.76" y="-172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CF11" gate="G$1" x="124.46" y="-177.8">
-<attribute name="DIGIKEY" x="124.46" y="-177.8" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="124.46" y="-177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CF12" gate="G$1" x="134.62" y="-177.8">
-<attribute name="DIGIKEY" x="134.62" y="-177.8" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="134.62" y="-177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND15" gate="VR1" x="124.46" y="-187.96"/>
 <instance part="AGND16" gate="VR1" x="134.62" y="-187.96"/>
 <instance part="C88" gate="G$1" x="154.94" y="-177.8">
-<attribute name="DIGIKEY" x="154.94" y="-177.8" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="154.94" y="-177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND17" gate="VR1" x="154.94" y="-187.96"/>
 <instance part="AGND21" gate="VR1" x="27.94" y="-187.96"/>
 <instance part="C89" gate="G$1" x="165.1" y="-177.8">
-<attribute name="DIGIKEY" x="165.1" y="-177.8" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="165.1" y="-177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V4" gate="G$1" x="30.48" y="-167.64"/>
 <instance part="AGND27" gate="VR1" x="-106.68" y="38.1"/>
 <instance part="L4" gate="G$1" x="220.98" y="-76.2">
-<attribute name="DIGIKEY" x="220.98" y="-76.2" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="220.98" y="-76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND29" gate="VR1" x="231.14" y="-81.28"/>
 <instance part="SUPPLY22" gate="G$1" x="210.82" y="-81.28"/>
 <instance part="CP4" gate="G$1" x="-121.92" y="50.8" rot="R270">
-<attribute name="DIGIKEY" x="-121.92" y="50.8" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="PARTNO" x="-121.92" y="50.8" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C69" gate="G$1" x="-167.64" y="-142.24">
-<attribute name="DIGIKEY" x="-167.64" y="-142.24" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-167.64" y="-142.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND33" gate="VR1" x="-167.64" y="-152.4"/>
 <instance part="IC1" gate="G$1" x="-53.34" y="10.16">
-<attribute name="DIGIKEY" x="-53.34" y="10.16" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-53.34" y="10.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CNR1" gate="G$1" x="-76.2" y="0">
-<attribute name="DIGIKEY" x="-76.2" y="0" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-76.2" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+1" gate="1" x="-76.2" y="22.86"/>
 <instance part="C6" gate="G$1" x="-91.44" y="7.62">
-<attribute name="DIGIKEY" x="-91.44" y="7.62" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="-91.44" y="7.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="-33.02" y="0"/>
 <instance part="SUPPLY25" gate="G$1" x="-76.2" y="-10.16"/>
 <instance part="SUPPLY26" gate="G$1" x="-91.44" y="-2.54"/>
 <instance part="IC6" gate="G$1" x="48.26" y="33.02">
-<attribute name="DIGIKEY" x="48.26" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="48.26" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CB1" gate="G$1" x="68.58" y="20.32">
-<attribute name="DIGIKEY" x="68.58" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="68.58" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="68.58" y="10.16"/>
 <instance part="SUPPLY5" gate="G$1" x="27.94" y="17.78"/>
