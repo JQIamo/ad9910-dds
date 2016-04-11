@@ -2916,6 +2916,10 @@ Low profile connectors, straight&lt;p&gt;
 </part>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="C5" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="1nF"/>
+<part name="C3" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
+<attribute name="PARTNO" value="478-4624-1-ND"/>
+</part>
+<part name="AGND31" library="supply1" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3025,6 +3029,10 @@ Check DROVER</text>
 <attribute name="PARTNO" x="-121.92" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="-60.96" y="55.88" rot="R270"/>
+<instance part="C3" gate="G$1" x="60.96" y="-53.34">
+<attribute name="PARTNO" x="60.96" y="-53.34" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="AGND31" gate="VR1" x="60.96" y="-63.5"/>
 </instances>
 <busses>
 </busses>
@@ -3198,13 +3206,19 @@ Check DROVER</text>
 <pinref part="RL2" gate="G$1" pin="1"/>
 <wire x1="-68.58" y1="63.5" x2="-68.58" y2="66.04" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="AGND31" gate="VR1" pin="AGND"/>
+<wire x1="60.96" y1="-58.42" x2="60.96" y2="-60.96" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="AVDD_P3" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="P$1"/>
 <wire x1="58.42" y1="-43.18" x2="58.42" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="-45.72" x2="66.04" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-45.72" x2="60.96" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="P$1"/>
+<wire x1="60.96" y1="-45.72" x2="66.04" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="-45.72" x2="66.04" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="AVDD(1.8V)"/>
 <wire x1="60.96" y1="5.08" x2="60.96" y2="-12.7" width="0.1524" layer="91"/>
@@ -3213,6 +3227,9 @@ Check DROVER</text>
 <wire x1="71.12" y1="-45.72" x2="66.04" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="66.04" y="-45.72"/>
 <label x="45.72" y="-45.72" size="1.778" layer="95"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="-50.8" x2="60.96" y2="-45.72" width="0.1524" layer="91"/>
+<junction x="60.96" y="-45.72"/>
 </segment>
 </net>
 <net name="AVDD_P6" class="0">

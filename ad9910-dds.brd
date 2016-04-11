@@ -1311,10 +1311,10 @@ design rules under a new name.</description>
 <attribute name="PARTNO" value="AD9910BSVZ-REELCT-ND" x="35.7124" y="25.0444" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C2" library="rlc-jqi" package="0603" value="150pF" x="27.3304" y="13.3604" smashed="yes" rot="R90">
-<attribute name="NAME" x="26.5684" y="11.5062" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="26.5684" y="12.1412" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="C1" library="rlc-jqi" package="0603" value="15pF" x="28.9052" y="13.335" smashed="yes" rot="R90">
-<attribute name="NAME" x="29.9974" y="11.7348" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="30.6324" y="12.1158" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="R2" library="rlc-jqi" package="0603" value="2.37k" x="28.1178" y="15.6972" smashed="yes">
 <attribute name="NAME" x="26.7716" y="16.4084" size="1.016" layer="25" font="vector" ratio="10"/>
@@ -1685,6 +1685,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="8.8518" y="14.3048" size="1.016" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="U$2" library="QR-git.io-vVWBG" package="QR-HTTPS://GIT.IO/VVWBG-LIGHT-SILK" value="" x="67.437" y="27.178" smashed="yes"/>
+<element name="C3" library="jqi_passives" package="C_MLCC_0204" value="0.1uF" x="27.813" y="11.176" smashed="yes" rot="R180">
+<attribute name="PARTNO" value="478-4624-1-ND" x="27.813" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="27.216" y="11.265" size="0.889" layer="25" font="vector" rot="R180"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
@@ -2041,6 +2045,8 @@ design rules under a new name.</description>
 <via x="50.3682" y="8.6614" extent="1-16" drill="0.381"/>
 <via x="56.4642" y="1.6764" extent="1-16" drill="0.381"/>
 <via x="51.5112" y="10.4394" extent="1-16" drill="0.381"/>
+<contactref element="C3" pad="P$2"/>
+<via x="26.6192" y="11.2014" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="AVDD_P3_NF">
 <contactref element="IC4" pad="P$5"/>
@@ -2074,14 +2080,21 @@ design rules under a new name.</description>
 <wire x1="30.7848" y1="5.1562" x2="30.48" y2="4.8514" width="0.508" layer="1"/>
 <wire x1="30.48" y1="4.8514" x2="29.2798" y2="4.8514" width="0.508" layer="1"/>
 <wire x1="29.2798" y1="4.8514" x2="29.2608" y2="4.8324" width="0.508" layer="1"/>
-<wire x1="26.8358" y1="9.4996" x2="28.3972" y2="9.4996" width="0.508" layer="1"/>
+<wire x1="26.8358" y1="9.4996" x2="28.163" y2="9.4996" width="0.508" layer="1"/>
 <wire x1="28.9052" y1="12.485" x2="29.757" y2="12.485" width="0.508" layer="1"/>
 <wire x1="29.757" y1="12.485" x2="30.1244" y2="13.0048" width="0.508" layer="1"/>
 <wire x1="30.1244" y1="13.0048" x2="30.1244" y2="15.6154" width="0.508" layer="1"/>
 <wire x1="30.1244" y1="15.6154" x2="30.4856" y2="15.6464" width="0.508" layer="1"/>
 <wire x1="27.3304" y1="12.5104" x2="28.9052" y2="12.485" width="0.508" layer="1"/>
-<wire x1="27.3304" y1="12.5104" x2="28.3972" y2="12.485" width="0.508" layer="1"/>
-<wire x1="28.3972" y1="12.485" x2="28.3972" y2="9.4996" width="0.508" layer="1"/>
+<wire x1="27.3304" y1="12.5104" x2="28.20713125" y2="12.489525" width="0.508" layer="1"/>
+<contactref element="C3" pad="P$1"/>
+<wire x1="28.20713125" y1="12.489525" x2="28.3972" y2="12.485" width="0.508" layer="1"/>
+<wire x1="28.3972" y1="9.4996" x2="28.163" y2="9.4996" width="0.508" layer="1"/>
+<wire x1="28.163" y1="9.4996" x2="28.163" y2="11.176" width="0.508" layer="1"/>
+<wire x1="28.163" y1="11.176" x2="28.194" y2="11.176" width="0.508" layer="1"/>
+<wire x1="28.194" y1="11.176" x2="28.194" y2="11.811" width="0.508" layer="1"/>
+<wire x1="28.194" y1="11.811" x2="28.20713125" y2="11.811" width="0.508" layer="1"/>
+<wire x1="28.20713125" y1="11.811" x2="28.20713125" y2="12.489525" width="0.508" layer="1"/>
 </signal>
 <signal name="AVDD_P6">
 <contactref element="U1" pad="6"/>
