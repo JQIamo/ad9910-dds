@@ -18,6 +18,7 @@ Layer count: 4
 Holes: 4
 Vias: 304
 Total drill count: 336
+SMD Pad count: 322
 
 Smallest drill: 15 mil
 Largest drill: 125 mil
