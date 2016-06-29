@@ -1118,15 +1118,15 @@ design rules under a new name.</description>
 <param name="mdPadPad" value="6mil"/>
 <param name="mdPadVia" value="6mil"/>
 <param name="mdViaVia" value="6mil"/>
-<param name="mdSmdPad" value="6mil"/>
-<param name="mdSmdVia" value="6mil"/>
-<param name="mdSmdSmd" value="6mil"/>
+<param name="mdSmdPad" value="0mil"/>
+<param name="mdSmdVia" value="0mil"/>
+<param name="mdSmdSmd" value="0mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="20mil"/>
 <param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
+<param name="msWidth" value="8mil"/>
 <param name="msDrill" value="15mil"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
@@ -1289,11 +1289,11 @@ design rules under a new name.</description>
 </element>
 <element name="C5" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="22.098" y="23.7744" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.5772" y="25.3874" size="1" layer="25" font="vector" ratio="11" rot="R180"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="22.098" y="23.7744" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="22.098" y="23.7744" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C6" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="23.5712" y="23.0632" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.4918" y="20.8914" size="1.016" layer="25" font="vector" ratio="10"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="23.5712" y="23.0632" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="23.5712" y="23.0632" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="RF1" library="ad9910-dds" package="10-SMD/NO-LEAD(QFN,LCC)" value="TXC-7NXX.XXX" x="12.5476" y="7.3406" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="887-2508-1-ND" x="12.5476" y="7.3406" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1301,7 +1301,7 @@ design rules under a new name.</description>
 </element>
 <element name="C1" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="11.2014" y="2.286" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.3318" y="1.6128" size="1" layer="25" font="vector" ratio="11"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="11.2014" y="2.286" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="11.2014" y="2.286" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C26" library="ad9910-dds" package="C_MLCC_0612" value="10u" x="53.4416" y="28.1178" smashed="yes" rot="R180">
 <attribute name="NAME" x="56.1088" y="30.4718" size="1" layer="25" font="vector" ratio="11"/>
@@ -1338,55 +1338,55 @@ design rules under a new name.</description>
 </element>
 <element name="C42" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="38.0492" y="15.7734" smashed="yes">
 <attribute name="NAME" x="38.6462" y="11.9" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="38.0492" y="15.7734" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="38.0492" y="15.7734" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C44" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="41.5036" y="15.7988" smashed="yes">
 <attribute name="NAME" x="41.8974" y="11.7984" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="41.5036" y="15.7988" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="41.5036" y="15.7988" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C46" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="44.958" y="21.4122" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.952" y="20.4852" size="1" layer="25" font="vector" ratio="11" rot="R90"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="44.958" y="21.4122" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="44.958" y="21.4122" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C48" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="45.0088" y="29.972" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.9012" y="29.553" size="1" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="45.0088" y="29.972" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="45.0088" y="29.972" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C50" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="38.2524" y="34.6202" smashed="yes" rot="R180">
 <attribute name="NAME" x="38.6462" y="36.157" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="38.2524" y="34.6202" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="38.2524" y="34.6202" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C52" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="35.9156" y="34.7472" smashed="yes">
 <attribute name="NAME" x="36.3348" y="36.03" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="35.9156" y="34.7472" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="35.9156" y="34.7472" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C43" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="34.4932" y="15.7226" smashed="yes">
 <attribute name="NAME" x="34.8616" y="11.9508" size="1.016" layer="25" font="vector" ratio="10" rot="SR90"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="34.4932" y="15.7226" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="34.4932" y="15.7226" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C45" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="36.0934" y="15.6972" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.7158" y="12.0778" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="36.0934" y="15.6972" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="36.0934" y="15.6972" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C47" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="39.7764" y="15.7734" smashed="yes">
 <attribute name="NAME" x="40.221" y="11.8746" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="39.7764" y="15.7734" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="39.7764" y="15.7734" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C49" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="44.9326" y="19.6342" smashed="yes" rot="R270">
 <attribute name="NAME" x="45.3772" y="16.0148" size="1" layer="25" font="vector" ratio="11" rot="R90"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="44.9326" y="19.6342" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="44.9326" y="19.6342" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C51" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="45.212" y="28.0416" smashed="yes" rot="R270">
 <attribute name="NAME" x="47.1552" y="26.6574" size="1" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="45.212" y="28.0416" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="45.212" y="28.0416" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C53" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="39.9034" y="34.5948" smashed="yes">
 <attribute name="NAME" x="39.535" y="38.7984" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="39.9034" y="34.5948" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="39.9034" y="34.5948" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C54" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="34.2392" y="34.7472" smashed="yes">
 <attribute name="NAME" x="34.5822" y="36.1062" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="34.2392" y="34.7472" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="34.2392" y="34.7472" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U2" library="ad9910-dds" package="S-PDSO-G8" value="REG113" x="48.1076" y="6.477" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.357" y="8.471" size="1.016" layer="21" font="vector" ratio="10"/>
@@ -1410,27 +1410,23 @@ design rules under a new name.</description>
 </element>
 <element name="C16" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="30.2514" y="33.909" smashed="yes">
 <attribute name="NAME" x="30.6452" y="35.014" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="30.2514" y="33.909" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="30.2514" y="33.909" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C17" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="26.5176" y="30.5308" smashed="yes" rot="R270">
 <attribute name="NAME" x="25.1588" y="31.4578" size="1.016" layer="25" font="vector" ratio="10"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="26.5176" y="30.5308" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="26.5176" y="30.5308" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C18" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="26.1366" y="27.4828" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.2604" y="28.5114" size="0.762" layer="25" font="vector" ratio="10"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="26.1366" y="27.4828" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="26.1366" y="27.4828" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C10" library="ad9910-dds" package="C_MLCC_0603" value="0.01uF" x="45.9232" y="3.429" smashed="yes" rot="R270">
+<element name="C10" library="ad9910-dds" package="C_MLCC_0603" value="10nF" x="45.9232" y="3.429" smashed="yes" rot="R270">
 <attribute name="NAME" x="47.0248" y="4.1512" size="1" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="PARTNO" value="399-1091-1-ND" x="45.9232" y="3.429" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U5" library="ad9910-dds" package="SOT-23-5" value="MIC5247" x="21.082" y="4.0132" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.9484" y="3.2766" size="1" layer="21" font="vector" ratio="11" rot="R90"/>
 <attribute name="PARTNO" value="576-1288-1-ND" x="21.082" y="4.0132" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="C19" library="ad9910-dds" package="C_MLCC_0204" value="0.01uF" x="23.8252" y="3.4036" smashed="yes" rot="R90">
-<attribute name="NAME" x="22.8236" y="1.4128" size="1" layer="25" font="vector" ratio="11"/>
-<attribute name="PARTNO" value="478-5503-1-ND" x="23.8252" y="3.4036" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C23" library="ad9910-dds" package="C_MLCC_0612" value="10u" x="26.2636" y="6.4516" smashed="yes">
 <attribute name="NAME" x="27.635" y="4.1484" size="1" layer="25" font="vector" ratio="11" rot="R180"/>
@@ -1451,15 +1447,11 @@ design rules under a new name.</description>
 </element>
 <element name="C40" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="30.8356" y="15.6464" smashed="yes">
 <attribute name="NAME" x="31.4072" y="11.9762" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="30.8356" y="15.6464" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="30.8356" y="15.6464" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U6" library="ad9910-dds" package="SOT-23-5" value="MIC5247" x="40.9194" y="6.604" smashed="yes">
 <attribute name="NAME" x="43.8912" y="5.6134" size="1" layer="21" font="vector" ratio="11" rot="R90"/>
 <attribute name="PARTNO" value="576-1288-1-ND" x="40.9194" y="6.604" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C20" library="ad9910-dds" package="C_MLCC_0204" value="0.01uF" x="41.5036" y="9.2964" smashed="yes" rot="R180">
-<attribute name="NAME" x="43.4436" y="8.498" size="1" layer="25" font="vector" ratio="11" rot="R90"/>
-<attribute name="PARTNO" value="478-5503-1-ND" x="41.5036" y="9.2964" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C24" library="ad9910-dds" package="C_MLCC_0612" value="10u" x="37.0078" y="6.4516" smashed="yes" rot="R180">
 <attribute name="NAME" x="38.8618" y="4.1484" size="1" layer="25" font="vector" ratio="11" rot="R180"/>
@@ -1479,15 +1471,11 @@ design rules under a new name.</description>
 </element>
 <element name="C38" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="32.4612" y="15.6464" smashed="yes">
 <attribute name="NAME" x="33.0074" y="12.027" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="32.4612" y="15.6464" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="32.4612" y="15.6464" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U7" library="ad9910-dds" package="SOT-23-5" value="MIC5247" x="20.5486" y="8.6868" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.3134" y="8.2042" size="1" layer="21" font="vector" ratio="11" rot="R90"/>
 <attribute name="PARTNO" value="576-1288-1-ND" x="20.5486" y="8.6868" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="C21" library="ad9910-dds" package="C_MLCC_0204" value="0.01uF" x="23.2156" y="8.0518" smashed="yes" rot="R90">
-<attribute name="NAME" x="21.5282" y="6.0102" size="1" layer="25" font="vector" ratio="11"/>
-<attribute name="PARTNO" value="478-5503-1-ND" x="23.2156" y="8.0518" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C25" library="ad9910-dds" package="C_MLCC_0612" value="10u" x="23.0886" y="13.3604" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.3362" y="10.5074" size="1" layer="25" font="vector" ratio="11"/>
@@ -1507,11 +1495,11 @@ design rules under a new name.</description>
 </element>
 <element name="C39" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="26.162" y="25.0444" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.3366" y="23.9396" size="1.016" layer="25" font="vector" ratio="10" rot="R90"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="26.162" y="25.0444" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="26.162" y="25.0444" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C41" library="ad9910-dds" package="C_MLCC_0204" value="0.1uF" x="26.2128" y="22.5552" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.6" y="20.4088" size="1.016" layer="25" font="vector" ratio="10"/>
-<attribute name="PARTNO" value="478-4624-1-ND" x="26.2128" y="22.5552" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="445-13583-1-ND" x="26.2128" y="22.5552" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R11" library="ad9910-dds" package="0402" value="DNP" x="19.5072" y="23.368" smashed="yes">
 <attribute name="NAME" x="18.288" y="23.7744" size="1" layer="25" font="vector" ratio="11" rot="R180"/>
@@ -1615,7 +1603,7 @@ design rules under a new name.</description>
 <attribute name="PARTNO" value="REG113EA3.3/250CT-ND" x="66.294" y="26.289" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="63.0808" y="17.988" size="1.016" layer="21" rot="R90"/>
 </element>
-<element name="C13" library="ad9910-dds" package="C_MLCC_0603" value="0.01uF" x="56.4642" y="16.1036" smashed="yes" rot="R270">
+<element name="C13" library="ad9910-dds" package="C_MLCC_0603" value="10nF" x="56.4642" y="16.1036" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="399-1091-1-ND" x="64.0842" y="21.1836" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="57.923" y="14.3416" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
@@ -1627,7 +1615,7 @@ design rules under a new name.</description>
 <attribute name="PARTNO" value="576-1288-1-ND" x="55.2958" y="24.3586" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="58.6486" y="23.368" size="1.27" layer="21" rot="R90"/>
 </element>
-<element name="C22" library="ad9910-dds" package="C_MLCC_0603" value="0.01uF" x="56.4896" y="27.3812" smashed="yes" rot="R90">
+<element name="C22" library="ad9910-dds" package="C_MLCC_0603" value="10nF" x="56.4896" y="27.3812" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="399-1091-1-ND" x="56.4896" y="27.3812" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="57.4674" y="28.9178" size="1.016" layer="25" font="vector" rot="R270"/>
 </element>
@@ -1675,6 +1663,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="3.826" y="26.508" size="1.016" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="U$3" library="QR-git.io-vVWBG" package="QR-HTTPS://GIT.IO/VVWBG-LIGHT-SILK" value="" x="67.437" y="27.178" smashed="yes" rot="MR0"/>
+<element name="C19" library="ad9910-dds" package="C_MLCC_0603" value="10nF" x="23.368" y="2.286" rot="R270">
+<attribute name="PARTNO" value="399-1091-1-ND" x="23.368" y="2.286" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C20" library="ad9910-dds" package="C_MLCC_0603" value="10nF" x="42.672" y="8.89">
+<attribute name="PARTNO" value="399-1091-1-ND" x="42.672" y="8.89" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C21" library="ad9910-dds" package="C_MLCC_0603" value="10nF" x="22.86" y="7.112" rot="R270">
+<attribute name="PARTNO" value="399-1091-1-ND" x="22.86" y="7.112" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
@@ -1718,20 +1715,17 @@ design rules under a new name.</description>
 <contactref element="C15" pad="P$2"/>
 <contactref element="C16" pad="P$2"/>
 <contactref element="C10" pad="P$2"/>
-<contactref element="C19" pad="P$2"/>
 <contactref element="C23" pad="P$2"/>
 <contactref element="C28" pad="P$2"/>
 <contactref element="C31" pad="P$2"/>
 <contactref element="C40" pad="P$2"/>
 <contactref element="U5" pad="P$2"/>
-<contactref element="C20" pad="P$2"/>
 <contactref element="C24" pad="P$2"/>
 <contactref element="C29" pad="P$2"/>
 <contactref element="C32" pad="P$2"/>
 <contactref element="C38" pad="P$2"/>
 <contactref element="U6" pad="P$2"/>
 <contactref element="U1" pad="4"/>
-<contactref element="C21" pad="P$2"/>
 <contactref element="C25" pad="P$2"/>
 <contactref element="C30" pad="P$2"/>
 <contactref element="C33" pad="P$2"/>
@@ -2035,6 +2029,11 @@ design rules under a new name.</description>
 <contactref element="R9" pad="P$1"/>
 <contactref element="R3" pad="P$1"/>
 <contactref element="R4" pad="P$1"/>
+<contactref element="C19" pad="P$2"/>
+<contactref element="C20" pad="P$2"/>
+<contactref element="C21" pad="P$2"/>
+<via x="21.9202" y="6.5024" extent="1-16" drill="0.381"/>
+<via x="24.4348" y="1.3208" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="AVDD_P3_NF">
 <contactref element="U5" pad="P$5"/>
@@ -2896,21 +2895,24 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$12">
 <contactref element="U5" pad="P$4"/>
-<contactref element="C19" pad="P$1"/>
 <wire x1="22.142" y1="3.0632" x2="22.1516" y2="3.0536" width="0.508" layer="1"/>
-<wire x1="22.1516" y1="3.0536" x2="23.8252" y2="3.0536" width="0.508" layer="1"/>
+<contactref element="C19" pad="P$1"/>
+<wire x1="23.368" y1="3.036" x2="22.142" y2="3.036" width="0.508" layer="1"/>
+<wire x1="22.142" y1="3.036" x2="22.142" y2="3.0632" width="0.508" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U6" pad="P$4"/>
-<contactref element="C20" pad="P$1"/>
-<wire x1="41.8536" y1="9.2964" x2="41.8536" y2="7.6798" width="0.508" layer="1"/>
 <wire x1="41.8536" y1="7.6798" x2="41.8694" y2="7.664" width="0.508" layer="1"/>
+<contactref element="C20" pad="P$1"/>
+<wire x1="41.8694" y1="7.664" x2="41.922" y2="7.664" width="0.508" layer="1"/>
+<wire x1="41.922" y1="7.664" x2="41.922" y2="8.89" width="0.508" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U7" pad="P$4"/>
-<contactref element="C21" pad="P$1"/>
 <wire x1="21.6086" y1="7.7368" x2="21.6436" y2="7.7018" width="0.508" layer="1"/>
-<wire x1="21.6436" y1="7.7018" x2="23.2156" y2="7.7018" width="0.508" layer="1"/>
+<contactref element="C21" pad="P$1"/>
+<wire x1="21.6436" y1="7.7018" x2="22.86" y2="7.7018" width="0.508" layer="1"/>
+<wire x1="22.86" y1="7.7018" x2="22.86" y2="7.862" width="0.508" layer="1"/>
 </signal>
 <signal name="SDIO">
 <contactref element="U1" pad="67"/>
@@ -3429,147 +3431,7 @@ design rules under a new name.</description>
 <approved hash="19,1,f657a405443e79ca"/>
 <approved hash="18,29,08783eab3ea40877"/>
 <approved hash="18,29,0691383973364d9e"/>
-<approved hash="3,1,a968d550d514a92c"/>
-<approved hash="3,1,b685788176873e89"/>
-<approved hash="3,1,c97a374237bec986"/>
-<approved hash="18,29,f9e5fb74fb74f9e5"/>
-<approved hash="18,29,7838798b798b7838"/>
-<approved hash="18,29,6e280455e4508e2d"/>
-<approved hash="18,29,ac99adc6f7d58f26"/>
-<approved hash="18,29,3221585378561224"/>
-<approved hash="18,29,516a2debf7f6f3d3"/>
-<approved hash="18,29,5fb8464f464f5fb8"/>
-<approved hash="18,29,5a054ad44ad45a05"/>
-<approved hash="18,29,2f654f706f7a0f6f"/>
-<approved hash="18,29,c63ca64f46452636"/>
-<approved hash="18,29,534a335f13a173b4"/>
-<approved hash="18,29,1b57382038201b57"/>
-<approved hash="18,29,1caa34bb34bb1caa"/>
-<approved hash="18,29,b813d82038de58ed"/>
-<approved hash="18,29,9ff27f015ffebf0d"/>
-<approved hash="18,29,64ba84c864378445"/>
-<approved hash="18,29,5112605d605d5112"/>
-<approved hash="18,29,4eb964c864c84eb9"/>
-<approved hash="18,29,887179a679a68871"/>
-<approved hash="18,29,87dc7d4d7d4d87dc"/>
-<approved hash="18,29,54496dfe6dfe5449"/>
-<approved hash="18,29,53b46165616553b4"/>
-<approved hash="18,29,9f0db582b5829f0d"/>
-<approved hash="18,29,80a6b117b11780a6"/>
-<approved hash="18,29,851e9e6f9e6f851e"/>
-<approved hash="18,29,888b9ad89ad8888b"/>
-<approved hash="18,29,73fe9313b3e95304"/>
-<approved hash="18,29,9ac77ad89a227a3d"/>
-<approved hash="18,29,73044db54db57304"/>
-<approved hash="18,29,7e91490249027e91"/>
-<approved hash="18,29,cf50d7f5d7f5cf50"/>
-<approved hash="18,29,35c8e496e49635c8"/>
-<approved hash="18,29,28b6d9a3b9bb48ae"/>
-<approved hash="18,29,410ab067907f6112"/>
-<approved hash="18,29,8f72b9a3b9a38f72"/>
-<approved hash="18,29,836abd9bbd9b836a"/>
-<approved hash="18,29,1532aa2f8a36352b"/>
-<approved hash="18,29,d7d2aec3aec3d7d2"/>
-<approved hash="18,29,d3baa2eba2ebd3ba"/>
-<approved hash="18,29,fdf942eba2f21de0"/>
-<approved hash="18,29,4d0a779b779b4d0a"/>
-<approved hash="18,29,411273a373a34112"/>
-<approved hash="18,29,152aecfbecfa152b"/>
-<approved hash="18,29,1142e0d3e0d21143"/>
-<approved hash="18,29,5052a1bf81bc7051"/>
-<approved hash="18,29,cb515cbc7cb8eb55"/>
-<approved hash="18,29,dc54273f1e305213"/>
-<approved hash="18,29,3a65cb72ab715a66"/>
-<approved hash="18,29,4fe4bf449f426fe2"/>
-<approved hash="18,29,a16636715675c162"/>
-<approved hash="18,29,fce22c420c41dce1"/>
-<approved hash="18,29,5fe3965a6888713c"/>
-<approved hash="18,29,6e89dbeb3e246904"/>
-<approved hash="18,29,b432ab72ab72b432"/>
-<approved hash="18,29,dd456c504c55fd40"/>
-<approved hash="18,29,b240c155e15a924f"/>
-<approved hash="18,29,3b9b8a656a60db9e"/>
-<approved hash="18,29,549e2760c76fb491"/>
-<approved hash="18,29,79a56a656a6579a5"/>
-<approved hash="18,29,cb55f255f255cb55"/>
-<approved hash="18,29,b24fa34fa34fb24f"/>
-<approved hash="18,29,ea9675f4b83cb804"/>
-<approved hash="18,29,2b93ba6d5a68cb96"/>
-<approved hash="18,29,4496d7683757a4a9"/>
-<approved hash="18,29,cd4d5c587c5ded48"/>
-<approved hash="18,29,a248315d11628277"/>
-<approved hash="18,29,69ad5a6d5a6d69ad"/>
-<approved hash="18,29,a27793779377a277"/>
-<approved hash="18,29,d0df01ca21c1f0d4"/>
-<approved hash="18,29,bb1b6a060a0ddb10"/>
-<approved hash="18,29,12bf0e2e0e2e12bf"/>
-<approved hash="18,29,1ed70a060a061ed7"/>
-<approved hash="18,29,2f117e029e0acf19"/>
-<approved hash="18,29,86b5922a922a86b5"/>
-<approved hash="18,29,824d9e029e02824d"/>
-<approved hash="18,29,c4559546b54ee45d"/>
-<approved hash="18,29,d0d4c005c005d0d4"/>
-<approved hash="18,29,dcbcc42dc42ddcbc"/>
-<approved hash="18,29,c45ddc02dc02c45d"/>
-<approved hash="18,29,c0a5d02ad02ac0a5"/>
-<approved hash="18,29,9d396e244e20bd3d"/>
-<approved hash="18,29,303d8120a12d1030"/>
-<approved hash="18,29,776f8419641d976b"/>
-<approved hash="18,29,da6b6b1d8b103a66"/>
-<approved hash="18,29,78d96419641978d9"/>
-<approved hash="18,29,1d71f6f1f6f01d70"/>
-<approved hash="18,29,6191f086d08a419d"/>
-<approved hash="18,29,d69d658a4589f69e"/>
-<approved hash="18,29,07cc96f1f6fd67c0"/>
-<approved hash="18,29,b0c003fd63fed0c3"/>
-<approved hash="18,29,30302f302f303030"/>
-<approved hash="18,29,d69ecfdecfded69e"/>
-<approved hash="18,29,a85157915796a856"/>
-<approved hash="18,29,26e7b7915795c6e3"/>
-<approved hash="18,29,8de31a95fa886dfe"/>
-<approved hash="18,29,ccb15dac7da8ecb5"/>
-<approved hash="18,29,67b5f0a8d0b547a8"/>
-<approved hash="18,29,2d9906d906d92d99"/>
-<approved hash="18,29,f1f900ee20f2d1e5"/>
-<approved hash="18,29,66e5f5f2d5f146e6"/>
-<approved hash="18,29,17a4e6d906c5f7b8"/>
-<approved hash="18,29,80b813c5f3c660bb"/>
-<approved hash="18,29,d942c95cc95cd942"/>
-<approved hash="18,29,469d5e7e5e7e469d"/>
-<approved hash="18,29,67a81ea81ea867a8"/>
-<approved hash="18,29,66e65fe65fe666e6"/>
-<approved hash="18,29,2111b622d62d411e"/>
-<approved hash="18,29,dc1e2d2d4d29bc1a"/>
-<approved hash="18,29,e022d622d622e022"/>
-<approved hash="18,29,44c2d3d7f3d864cd"/>
-<approved hash="18,29,b9cd48d868dc99c9"/>
-<approved hash="18,29,058a19691969058a"/>
-<approved hash="18,29,afb47eea7eedafb3"/>
-<approved hash="18,29,22ccb1df91d202c1"/>
-<approved hash="18,29,dfc12ed20ed6ffc5"/>
-<approved hash="18,29,4f19dc2cbc212f14"/>
-<approved hash="18,29,b21443212325d210"/>
-<approved hash="18,29,862cbc2cbc2c862c"/>
-<approved hash="18,29,b9c9a909a909b9c9"/>
-<approved hash="18,29,dfc5c705c705dfc5"/>
-<approved hash="18,29,512a412a412a512a"/>
-<approved hash="18,29,d019212a4156b065"/>
-<approved hash="18,29,4f65dc56bc512f62"/>
-<approved hash="18,29,b5ca44df64a395b6"/>
-<approved hash="18,29,2ab6b9a399a40ab1"/>
-<approved hash="18,29,56444f044f045644"/>
-<approved hash="18,29,1ff1af044f79ff8c"/>
-<approved hash="18,29,828c1079f07d6288"/>
-<approved hash="4,1,2699272227fc27d8"/>
 <approved hash="19,1,1567c10d4d099963"/>
-<approved hash="4,1,18626529658d19d3"/>
-<approved hash="4,1,e4a8e92be9e7e5e9"/>
-<approved hash="4,1,4d762716a75ccc80"/>
-<approved hash="4,1,47d409b48842c7c6"/>
-<approved hash="4,1,89d5c3b543ab093f"/>
-<approved hash="4,1,33416561e557b28b"/>
-<approved hash="4,1,b777d95759653689"/>
-<approved hash="4,1,cbca8dba0da04bc4"/>
 <approved hash="19,1,d71c070a8b0e5b18"/>
 <approved hash="5,1,a8889abd4b89a9b8"/>
 <approved hash="19,1,7561a7b827bcf565"/>
@@ -3631,17 +3493,157 @@ design rules under a new name.</description>
 <approved hash="5,1,d8c58a7ba81e487e"/>
 <approved hash="5,1,2326c83da6e30372"/>
 <approved hash="5,1,cabd5e94456c6dbe"/>
+<approved hash="19,16,61494971487b6043"/>
+<approved hash="19,16,62494a7146776e4f"/>
+<approved hash="19,16,3aac10916ff7429f"/>
+<approved hash="19,16,af4db775b460ac58"/>
+<approved hash="19,16,331ac1e6fa1b6799"/>
+<approved hash="3,1,a968d550d514a92c"/>
+<approved hash="3,1,b685788176873e89"/>
+<approved hash="3,1,c97a374237bec986"/>
+<approved hash="18,29,7838798b798b7838"/>
+<approved hash="18,29,f9e5fb74fb74f9e5"/>
+<approved hash="18,29,6e280455e4508e2d"/>
+<approved hash="18,29,ac99adc6f7d58f26"/>
+<approved hash="18,29,3221585378561224"/>
+<approved hash="18,29,516a2debf7f6f3d3"/>
+<approved hash="18,29,5a054ad44ad45a05"/>
+<approved hash="18,29,5fb8464f464f5fb8"/>
+<approved hash="18,29,2f654f706f7a0f6f"/>
+<approved hash="18,29,c63ca64f46452636"/>
+<approved hash="18,29,b813d82038de58ed"/>
+<approved hash="18,29,1b57382038201b57"/>
+<approved hash="18,29,1caa34bb34bb1caa"/>
+<approved hash="18,29,534a335f13a173b4"/>
+<approved hash="18,29,9ff27f015ffebf0d"/>
+<approved hash="18,29,4eb964c864c84eb9"/>
+<approved hash="18,29,5112605d605d5112"/>
+<approved hash="18,29,64ba84c864378445"/>
+<approved hash="18,29,887179a679a68871"/>
+<approved hash="18,29,87dc7d4d7d4d87dc"/>
+<approved hash="18,29,54496dfe6dfe5449"/>
+<approved hash="18,29,53b46165616553b4"/>
+<approved hash="18,29,80a6b117b11780a6"/>
+<approved hash="18,29,9f0db582b5829f0d"/>
+<approved hash="18,29,9ac77ad89a227a3d"/>
+<approved hash="18,29,851e9e6f9e6f851e"/>
+<approved hash="18,29,888b9ad89ad8888b"/>
+<approved hash="18,29,73fe9313b3e95304"/>
+<approved hash="18,29,73044db54db57304"/>
+<approved hash="18,29,7e91490249027e91"/>
+<approved hash="18,29,cf50d7f5d7f5cf50"/>
+<approved hash="18,29,35c8e496e49635c8"/>
+<approved hash="18,29,410ab067907f6112"/>
+<approved hash="18,29,8f72b9a3b9a38f72"/>
+<approved hash="18,29,836abd9bbd9b836a"/>
+<approved hash="18,29,28b6d9a3b9bb48ae"/>
+<approved hash="18,29,1532aa2f8a36352b"/>
+<approved hash="18,29,fdf942eba2f21de0"/>
+<approved hash="18,29,d3baa2eba2ebd3ba"/>
+<approved hash="18,29,d7d2aec3aec3d7d2"/>
+<approved hash="18,29,4d0a779b779b4d0a"/>
+<approved hash="18,29,411273a373a34112"/>
+<approved hash="18,29,1142e0d3e0d21143"/>
+<approved hash="18,29,152aecfbecfa152b"/>
+<approved hash="18,29,dc54273f1e305213"/>
+<approved hash="18,29,3a65cb72ab715a66"/>
+<approved hash="18,29,4fe4bf449f426fe2"/>
+<approved hash="18,29,a16636715675c162"/>
+<approved hash="18,29,fce22c420c41dce1"/>
+<approved hash="18,29,5fe3965a6888713c"/>
+<approved hash="18,29,6e89dbeb3e246904"/>
+<approved hash="18,29,b432ab72ab72b432"/>
+<approved hash="18,29,5052a1bf81bc7051"/>
+<approved hash="18,29,cb515cbc7cb8eb55"/>
+<approved hash="18,29,3b9b8a656a60db9e"/>
+<approved hash="18,29,549e2760c76fb491"/>
+<approved hash="18,29,dd456c504c55fd40"/>
+<approved hash="18,29,b240c155e15a924f"/>
+<approved hash="18,29,79a56a656a6579a5"/>
+<approved hash="18,29,cb55f255f255cb55"/>
+<approved hash="18,29,b24fa34fa34fb24f"/>
+<approved hash="18,29,ea9675f4b83cb804"/>
+<approved hash="18,29,69ad5a6d5a6d69ad"/>
+<approved hash="18,29,2b93ba6d5a68cb96"/>
+<approved hash="18,29,4496d7683757a4a9"/>
+<approved hash="18,29,cd4d5c587c5ded48"/>
+<approved hash="18,29,a248315d11628277"/>
+<approved hash="18,29,a27793779377a277"/>
+<approved hash="18,29,12bf0e2e0e2e12bf"/>
+<approved hash="18,29,1ed70a060a061ed7"/>
+<approved hash="18,29,d0df01ca21c1f0d4"/>
+<approved hash="18,29,bb1b6a060a0ddb10"/>
+<approved hash="18,29,2f117e029e0acf19"/>
+<approved hash="18,29,86b5922a922a86b5"/>
+<approved hash="18,29,824d9e029e02824d"/>
+<approved hash="18,29,c4559546b54ee45d"/>
+<approved hash="18,29,d0d4c005c005d0d4"/>
+<approved hash="18,29,dcbcc42dc42ddcbc"/>
+<approved hash="18,29,c45ddc02dc02c45d"/>
+<approved hash="18,29,c0a5d02ad02ac0a5"/>
+<approved hash="18,29,9d396e244e20bd3d"/>
+<approved hash="18,29,303d8120a12d1030"/>
+<approved hash="18,29,78d96419641978d9"/>
+<approved hash="18,29,776f8419641d976b"/>
+<approved hash="18,29,da6b6b1d8b103a66"/>
+<approved hash="18,29,6191f086d08a419d"/>
+<approved hash="18,29,d69d658a4589f69e"/>
+<approved hash="18,29,07cc96f1f6fd67c0"/>
+<approved hash="18,29,b0c003fd63fed0c3"/>
+<approved hash="18,29,1d71f6f1f6f01d70"/>
+<approved hash="18,29,30302f302f303030"/>
+<approved hash="18,29,d69ecfdecfded69e"/>
+<approved hash="18,29,26e7b7915795c6e3"/>
+<approved hash="18,29,8de31a95fa886dfe"/>
+<approved hash="18,29,a85157915796a856"/>
+<approved hash="18,29,ccb15dac7da8ecb5"/>
+<approved hash="18,29,67b5f0a8d0b547a8"/>
+<approved hash="18,29,f1f900ee20f2d1e5"/>
+<approved hash="18,29,66e5f5f2d5f146e6"/>
+<approved hash="18,29,17a4e6d906c5f7b8"/>
+<approved hash="18,29,80b813c5f3c660bb"/>
+<approved hash="18,29,2d9906d906d92d99"/>
+<approved hash="18,29,d942c95cc95cd942"/>
+<approved hash="18,29,469d5e7e5e7e469d"/>
+<approved hash="18,29,67a81ea81ea867a8"/>
+<approved hash="18,29,66e65fe65fe666e6"/>
+<approved hash="18,29,44c2d3d7f3d864cd"/>
+<approved hash="18,29,b9cd48d868dc99c9"/>
+<approved hash="18,29,e022d622d622e022"/>
+<approved hash="18,29,2111b622d62d411e"/>
+<approved hash="18,29,dc1e2d2d4d29bc1a"/>
+<approved hash="18,29,058a19691969058a"/>
+<approved hash="18,29,afb47eea7eedafb3"/>
+<approved hash="18,29,4f19dc2cbc212f14"/>
+<approved hash="18,29,b21443212325d210"/>
+<approved hash="18,29,22ccb1df91d202c1"/>
+<approved hash="18,29,dfc12ed20ed6ffc5"/>
+<approved hash="18,29,862cbc2cbc2c862c"/>
+<approved hash="18,29,b9c9a909a909b9c9"/>
+<approved hash="18,29,dfc5c705c705dfc5"/>
+<approved hash="18,29,d019212a4156b065"/>
+<approved hash="18,29,4f65dc56bc512f62"/>
+<approved hash="18,29,b5ca44df64a395b6"/>
+<approved hash="18,29,2ab6b9a399a40ab1"/>
+<approved hash="18,29,512a412a412a512a"/>
+<approved hash="18,29,1ff1af044f79ff8c"/>
+<approved hash="18,29,828c1079f07d6288"/>
+<approved hash="18,29,56444f044f045644"/>
+<approved hash="4,1,2699272227fc27d8"/>
+<approved hash="4,1,18626529658d19d3"/>
+<approved hash="4,1,e4a8e92be9e7e5e9"/>
+<approved hash="4,1,4d762716a75ccc80"/>
+<approved hash="4,1,33416561e557b28b"/>
+<approved hash="4,1,47d409b48842c7c6"/>
+<approved hash="4,1,cbca8dba0da04bc4"/>
+<approved hash="4,1,89d5c3b543ab093f"/>
+<approved hash="4,1,b777d95759653689"/>
 <approved hash="4,16,4d762716a75ccc80"/>
 <approved hash="4,16,47d409b48842c7c6"/>
 <approved hash="4,16,89d5c3b543ab093f"/>
 <approved hash="4,16,b777d95759653689"/>
 <approved hash="4,16,33416561e557b28b"/>
 <approved hash="4,16,cbca8dba0da04bc4"/>
-<approved hash="19,16,61494971487b6043"/>
-<approved hash="19,16,62494a7146776e4f"/>
-<approved hash="19,16,3aac10916ff7429f"/>
-<approved hash="19,16,af4db775b460ac58"/>
-<approved hash="19,16,331ac1e6fa1b6799"/>
 </errors>
 </board>
 </drawing>

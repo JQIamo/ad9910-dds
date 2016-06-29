@@ -2521,10 +2521,10 @@ Low-noise, low-dropout linear regulator with low ground pin current. It has very
 </part>
 <part name="AGND18" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="C5" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="C6" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="AGND16" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="AGND19" library="ad9910-dds" deviceset="AGND" device=""/>
@@ -2532,7 +2532,7 @@ Low-noise, low-dropout linear regulator with low ground pin current. It has very
 <attribute name="PARTNO" value="887-2508-1-ND"/>
 </part>
 <part name="C1" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="AGND1" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="AGND4" library="ad9910-dds" deviceset="AGND" device=""/>
@@ -2570,45 +2570,45 @@ Low-noise, low-dropout linear regulator with low ground pin current. It has very
 <part name="SUPPLY19" library="ad9910-dds" deviceset="DGND" device=""/>
 <part name="SUPPLY17" library="ad9910-dds" deviceset="DGND" device=""/>
 <part name="C42" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="C44" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="C46" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="C48" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="C50" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="C52" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="SUPPLY22" library="ad9910-dds" deviceset="DGND" device=""/>
 <part name="C43" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="C45" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="C47" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="C49" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="C51" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="C53" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="SUPPLY23" library="ad9910-dds" deviceset="DGND" device=""/>
 <part name="C54" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="SUPPLY4" library="ad9910-dds" deviceset="DGND" device=""/>
 <part name="SUPPLY5" library="ad9910-dds" deviceset="DGND" device=""/>
@@ -2636,25 +2636,22 @@ Low-noise, low-dropout linear regulator with low ground pin current. It has very
 <part name="AGND25" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="AGND26" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="C16" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="C17" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="C18" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="AGND27" library="ad9910-dds" deviceset="AGND" device=""/>
-<part name="C10" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="0.01uF">
+<part name="C10" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="10nF">
 <attribute name="PARTNO" value="399-1091-1-ND"/>
 </part>
 <part name="AGND21" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="P+1" library="ad9910-dds" deviceset="+5V" device=""/>
 <part name="U5" library="ad9910-dds" deviceset="MIC5247" device="">
 <attribute name="PARTNO" value="576-1288-1-ND"/>
-</part>
-<part name="C19" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.01uF">
-<attribute name="PARTNO" value="478-5503-1-ND"/>
 </part>
 <part name="AGND31" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="C23" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0612" value="10u">
@@ -2673,7 +2670,7 @@ Low-noise, low-dropout linear regulator with low ground pin current. It has very
 <part name="AGND37" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="AGND40" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="C40" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="AGND45" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="AGND28" library="ad9910-dds" deviceset="AGND" device=""/>
@@ -2681,9 +2678,6 @@ Low-noise, low-dropout linear regulator with low ground pin current. It has very
 <part name="+3V33" library="ad9910-dds" deviceset="+3V3" device=""/>
 <part name="U6" library="ad9910-dds" deviceset="MIC5247" device="">
 <attribute name="PARTNO" value="576-1288-1-ND"/>
-</part>
-<part name="C20" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.01uF">
-<attribute name="PARTNO" value="478-5503-1-ND"/>
 </part>
 <part name="AGND32" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="C24" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0612" value="10u">
@@ -2702,16 +2696,13 @@ Low-noise, low-dropout linear regulator with low ground pin current. It has very
 <part name="AGND38" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="AGND41" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="C38" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="AGND43" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="AGND29" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="+3V34" library="ad9910-dds" deviceset="+3V3" device=""/>
 <part name="U7" library="ad9910-dds" deviceset="MIC5247" device="">
 <attribute name="PARTNO" value="576-1288-1-ND"/>
-</part>
-<part name="C21" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.01uF">
-<attribute name="PARTNO" value="478-5503-1-ND"/>
 </part>
 <part name="AGND33" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="C25" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0612" value="10u">
@@ -2730,12 +2721,12 @@ Low-noise, low-dropout linear regulator with low ground pin current. It has very
 <part name="AGND39" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="AGND42" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="C39" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="AGND44" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="AGND30" library="ad9910-dds" deviceset="AGND" device=""/>
 <part name="C41" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<attribute name="PARTNO" value="445-13583-1-ND"/>
 </part>
 <part name="+3V35" library="ad9910-dds" deviceset="+3V3" device=""/>
 <part name="R11" library="ad9910-dds" deviceset="RES" device="0402" value="DNP"/>
@@ -2815,7 +2806,7 @@ Low-noise, low-dropout linear regulator with low ground pin current. It has very
 <part name="U3" library="ad9910-dds" deviceset="REG113" device="">
 <attribute name="PARTNO" value="REG113EA3.3/250CT-ND"/>
 </part>
-<part name="C13" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="0.01uF">
+<part name="C13" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="10nF">
 <attribute name="PARTNO" value="399-1091-1-ND"/>
 </part>
 <part name="P+2" library="ad9910-dds" deviceset="+5V" device=""/>
@@ -2828,7 +2819,7 @@ Low-noise, low-dropout linear regulator with low ground pin current. It has very
 <part name="U4" library="ad9910-dds" deviceset="MIC5247" device="">
 <attribute name="PARTNO" value="576-1288-1-ND"/>
 </part>
-<part name="C22" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="0.01uF">
+<part name="C22" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="10nF">
 <attribute name="PARTNO" value="399-1091-1-ND"/>
 </part>
 <part name="SUPPLY15" library="ad9910-dds" deviceset="DGND" device=""/>
@@ -2862,6 +2853,15 @@ Low-noise, low-dropout linear regulator with low ground pin current. It has very
 <part name="R4" library="ad9910-dds" deviceset="R_SMD" device="R0402" value="DNP"/>
 <part name="R3" library="ad9910-dds" deviceset="R_SMD" device="R0402" value="50R">
 <attribute name="PARTNO" value="RR05R49.9DCT-ND"/>
+</part>
+<part name="C19" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="10nF">
+<attribute name="PARTNO" value="399-1091-1-ND"/>
+</part>
+<part name="C20" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="10nF">
+<attribute name="PARTNO" value="399-1091-1-ND"/>
+</part>
+<part name="C21" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="10nF">
+<attribute name="PARTNO" value="399-1091-1-ND"/>
 </part>
 </parts>
 <sheets>
@@ -3987,9 +3987,6 @@ Check DROVER</text>
 <instance part="U5" gate="G$1" x="48.26" y="-96.52">
 <attribute name="PARTNO" x="48.26" y="-96.52" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C19" gate="G$1" x="63.5" y="-106.68">
-<attribute name="PARTNO" x="63.5" y="-106.68" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="AGND31" gate="VR1" x="63.5" y="-116.84"/>
 <instance part="C23" gate="G$1" x="99.06" y="-96.52">
 <attribute name="PARTNO" x="99.06" y="-96.52" size="1.778" layer="96" display="off"/>
@@ -4016,9 +4013,6 @@ Check DROVER</text>
 <instance part="U6" gate="G$1" x="48.26" y="-139.7">
 <attribute name="PARTNO" x="48.26" y="-139.7" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C20" gate="G$1" x="63.5" y="-149.86">
-<attribute name="PARTNO" x="63.5" y="-149.86" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="AGND32" gate="VR1" x="63.5" y="-160.02"/>
 <instance part="C24" gate="G$1" x="99.06" y="-139.7">
 <attribute name="PARTNO" x="99.06" y="-139.7" size="1.778" layer="96" display="off"/>
@@ -4043,9 +4037,6 @@ Check DROVER</text>
 <instance part="+3V34" gate="G$1" x="30.48" y="-129.54"/>
 <instance part="U7" gate="G$1" x="48.26" y="-177.8">
 <attribute name="PARTNO" x="48.26" y="-177.8" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C21" gate="G$1" x="63.5" y="-187.96">
-<attribute name="PARTNO" x="63.5" y="-187.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND33" gate="VR1" x="63.5" y="-198.12"/>
 <instance part="C25" gate="G$1" x="99.06" y="-177.8">
@@ -4108,6 +4099,15 @@ Check DROVER</text>
 <instance part="SUPPLY14" gate="G$1" x="27.94" y="17.78"/>
 <instance part="JP1" gate="G$1" x="-144.78" y="45.72" rot="R180">
 <attribute name="PARTNO" x="-144.78" y="45.72" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="C19" gate="G$1" x="63.5" y="-106.68">
+<attribute name="PARTNO" x="63.5" y="-106.68" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C20" gate="G$1" x="63.5" y="-149.86">
+<attribute name="PARTNO" x="63.5" y="-149.86" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C21" gate="G$1" x="63.5" y="-187.96">
+<attribute name="PARTNO" x="63.5" y="-187.96" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -4456,9 +4456,9 @@ Check DROVER</text>
 <wire x1="-152.4" y1="-154.94" x2="-152.4" y2="-157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C19" gate="G$1" pin="2"/>
 <pinref part="AGND31" gate="VR1" pin="AGND"/>
 <wire x1="63.5" y1="-111.76" x2="63.5" y2="-114.3" width="0.1524" layer="91"/>
+<pinref part="C19" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="AGND34" gate="VR1" pin="AGND"/>
@@ -4487,9 +4487,9 @@ Check DROVER</text>
 <wire x1="27.94" y1="-96.52" x2="33.02" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C20" gate="G$1" pin="2"/>
 <pinref part="AGND32" gate="VR1" pin="AGND"/>
 <wire x1="63.5" y1="-154.94" x2="63.5" y2="-157.48" width="0.1524" layer="91"/>
+<pinref part="C20" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="AGND35" gate="VR1" pin="AGND"/>
@@ -4518,9 +4518,9 @@ Check DROVER</text>
 <wire x1="27.94" y1="-139.7" x2="33.02" y2="-139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C21" gate="G$1" pin="2"/>
 <pinref part="AGND33" gate="VR1" pin="AGND"/>
 <wire x1="63.5" y1="-193.04" x2="63.5" y2="-195.58" width="0.1524" layer="91"/>
+<pinref part="C21" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="AGND36" gate="VR1" pin="AGND"/>
@@ -4633,8 +4633,8 @@ Check DROVER</text>
 <net name="N$12" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="CBYP"/>
-<pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="-101.6" x2="63.5" y2="-104.14" width="0.1524" layer="91"/>
+<pinref part="C19" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="AVDD_P3_NF" class="0">
@@ -4686,8 +4686,8 @@ Check DROVER</text>
 <net name="N$3" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="CBYP"/>
-<pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="-144.78" x2="63.5" y2="-147.32" width="0.1524" layer="91"/>
+<pinref part="C20" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="AVDD_P6_NF" class="0">
@@ -4705,8 +4705,8 @@ Check DROVER</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="CBYP"/>
-<pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="-182.88" x2="63.5" y2="-185.42" width="0.1524" layer="91"/>
+<pinref part="C21" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="AVDD_P89/92" class="0">
