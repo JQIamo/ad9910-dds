@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mic" unit="mic" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1599,7 +1599,7 @@ Output Load: 10 kOhm//10pF.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MIC5247">
+<deviceset name="MIC5247" prefix="U">
 <description>MIC5247.
 
 150 mA Low-Voltage uCap Linear Regulator. Ultra-low noise. Input Voltage (Vin): +2.7V to +6V.</description>
@@ -1739,7 +1739,7 @@ Output Load: 10 kOhm//10pF.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LFCN">
+<deviceset name="LFCN" prefix="RF">
 <description>Low Pass Filter</description>
 <gates>
 <gate name="G$1" symbol="LFCN" x="0" y="0"/>
@@ -1758,7 +1758,7 @@ Output Load: 10 kOhm//10pF.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="REG113">
+<deviceset name="REG113" prefix="U">
 <description>REG113.
 
 Low-noise, low-dropout linear regulator with low ground pin current. It has very low output noise (typically 28 uVrms for Vout=3.3V with Cnr=0.01uF).</description>
@@ -1799,7 +1799,7 @@ Low-noise, low-dropout linear regulator with low ground pin current. It has very
 </device>
 </devices>
 </deviceset>
-<deviceset name="TXC-7NXX.XXX">
+<deviceset name="TXC-7NXX.XXX" prefix="RF">
 <description>Precise SMD Temperature Compensated Crystal Oscillator. 
 
 ----////----

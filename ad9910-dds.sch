@@ -1820,7 +1820,7 @@ Output Load: 10 kOhm//10pF.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LFCN">
+<deviceset name="LFCN" prefix="RF">
 <description>Low Pass Filter</description>
 <gates>
 <gate name="G$1" symbol="LFCN" x="0" y="0"/>
@@ -2279,7 +2279,7 @@ Output Load: 10 kOhm//10pF.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TXC-7NXX.XXX">
+<deviceset name="TXC-7NXX.XXX" prefix="RF">
 <description>Precise SMD Temperature Compensated Crystal Oscillator. 
 
 ----////----
@@ -2391,7 +2391,7 @@ Supply Voltage: 2.7 V ~ 5.5 V</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="REG113">
+<deviceset name="REG113" prefix="U">
 <description>REG113.
 
 Low-noise, low-dropout linear regulator with low ground pin current. It has very low output noise (typically 28 uVrms for Vout=3.3V with Cnr=0.01uF).</description>
@@ -2416,7 +2416,7 @@ Low-noise, low-dropout linear regulator with low ground pin current. It has very
 </device>
 </devices>
 </deviceset>
-<deviceset name="MIC5247">
+<deviceset name="MIC5247" prefix="U">
 <description>MIC5247.
 
 150 mA Low-Voltage uCap Linear Regulator. Ultra-low noise. Input Voltage (Vin): +2.7V to +6V.</description>
