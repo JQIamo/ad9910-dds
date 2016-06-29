@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -133,6 +133,40 @@
 </layers>
 <board>
 <plain>
+<wire x1="121.92" y1="53.34" x2="134.62" y2="53.34" width="0.508" layer="51"/>
+<wire x1="134.62" y1="53.34" x2="147.32" y2="53.34" width="0.508" layer="51"/>
+<wire x1="147.32" y1="53.34" x2="160.02" y2="53.34" width="0.508" layer="51"/>
+<wire x1="160.02" y1="53.34" x2="172.72" y2="53.34" width="0.508" layer="51"/>
+<wire x1="172.72" y1="53.34" x2="172.72" y2="-20.32" width="0.508" layer="51"/>
+<wire x1="172.72" y1="-20.32" x2="121.92" y2="-20.32" width="0.508" layer="51"/>
+<wire x1="121.92" y1="-20.32" x2="121.92" y2="53.34" width="0.508" layer="51"/>
+<hole x="125.73" y="-16.51" drill="3.175"/>
+<hole x="168.91" y="-16.51" drill="3.175"/>
+<hole x="168.91" y="49.53" drill="3.175"/>
+<hole x="125.73" y="49.53" drill="3.175"/>
+<wire x1="134.62" y1="53.34" x2="134.62" y2="63.5" width="0.508" layer="51"/>
+<wire x1="147.32" y1="53.34" x2="147.32" y2="63.5" width="0.508" layer="51"/>
+<wire x1="160.02" y1="53.34" x2="160.02" y2="63.5" width="0.508" layer="51"/>
+<rectangle x1="130.81" y1="53.34" x2="138.43" y2="63.5" layer="51"/>
+<rectangle x1="143.51" y1="53.34" x2="151.13" y2="63.5" layer="51"/>
+<rectangle x1="156.21" y1="53.34" x2="163.83" y2="63.5" layer="51"/>
+<wire x1="34.29" y1="-11.43" x2="34.29" y2="1.27" width="0.508" layer="51"/>
+<wire x1="34.29" y1="1.27" x2="34.29" y2="13.97" width="0.508" layer="51"/>
+<wire x1="34.29" y1="13.97" x2="34.29" y2="26.67" width="0.508" layer="51"/>
+<wire x1="34.29" y1="26.67" x2="34.29" y2="39.37" width="0.508" layer="51"/>
+<wire x1="34.29" y1="39.37" x2="107.95" y2="39.37" width="0.508" layer="51"/>
+<wire x1="107.95" y1="39.37" x2="107.95" y2="-11.43" width="0.508" layer="51"/>
+<wire x1="107.95" y1="-11.43" x2="34.29" y2="-11.43" width="0.508" layer="51"/>
+<hole x="104.14" y="-7.62" drill="3.175"/>
+<hole x="104.14" y="35.56" drill="3.175"/>
+<hole x="38.1" y="35.56" drill="3.175"/>
+<hole x="38.1" y="-7.62" drill="3.175"/>
+<wire x1="34.29" y1="1.27" x2="24.13" y2="1.27" width="0.508" layer="51"/>
+<wire x1="34.29" y1="13.97" x2="24.13" y2="13.97" width="0.508" layer="51"/>
+<wire x1="34.29" y1="26.67" x2="24.13" y2="26.67" width="0.508" layer="51"/>
+<rectangle x1="25.4" y1="-3.81" x2="33.02" y2="6.35" layer="51" rot="R90"/>
+<rectangle x1="25.4" y1="8.89" x2="33.02" y2="19.05" layer="51" rot="R90"/>
+<rectangle x1="25.4" y1="21.59" x2="33.02" y2="31.75" layer="51" rot="R90"/>
 </plain>
 <libraries>
 <library name="connector-jqi">
@@ -752,7 +786,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="connector-jqi" package="VG64-CUTOUT" value="" x="-0.254" y="53.8226"/>
+<element name="J1" library="connector-jqi" package="VG64-CUTOUT" value="" x="16.256" y="127.4826"/>
 </elements>
 <signals>
 </signals>

@@ -2595,9 +2595,15 @@ Low profile connectors, straight&lt;p&gt;
 <part name="U1" library="Neal_DDS-library" deviceset="AD9910" device="">
 <attribute name="PARTNO" value="AD9910BSVZ-REELCT-ND"/>
 </part>
-<part name="C2" library="rlc-jqi" deviceset="CAP" device="0603" value="150pF"/>
-<part name="C1" library="rlc-jqi" deviceset="CAP" device="0603" value="15pF"/>
-<part name="R2" library="rlc-jqi" deviceset="RES" device="0603" value="2.37k"/>
+<part name="C2" library="rlc-jqi" deviceset="CAP" device="0603" value="150pF">
+<attribute name="PARTNO" value="1276-1280-1-ND"/>
+</part>
+<part name="C1" library="rlc-jqi" deviceset="CAP" device="0603" value="15pF">
+<attribute name="PARTNO" value="1276-1296-1-ND"/>
+</part>
+<part name="R2" library="rlc-jqi" deviceset="RES" device="0603" value="2.37k">
+<attribute name="PARTNO" value="RG16P2.37KBCT-ND"/>
+</part>
 <part name="AGND8" library="supply1" deviceset="AGND" device=""/>
 <part name="CRFCL1" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
 <attribute name="PARTNO" value="478-4624-1-ND"/>
@@ -2607,17 +2613,16 @@ Low profile connectors, straight&lt;p&gt;
 </part>
 <part name="AGND32" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND39" library="supply1" deviceset="AGND" device=""/>
-<part name="XO" library="Neal_DDS-library" deviceset="TXC-7NXX.XXX" device=""/>
-<part name="CXO" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1u">
+<part name="XO" library="Neal_DDS-library" deviceset="TXC-7NXX.XXX" device="">
+<attribute name="PARTNO" value="887-2508-1-ND"/>
+</part>
+<part name="CXO" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
 <attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="AGND49" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND50" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND54" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND53" library="supply1" deviceset="AGND" device=""/>
-<part name="R1" library="jqi_passives" deviceset="R_SMD" device="R0603" value="50">
-<attribute name="PARTNO" value="A110418CT-ND"/>
-</part>
 <part name="AGND34" library="supply1" deviceset="AGND" device=""/>
 <part name="CF15" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0612" value="10u">
 <attribute name="PARTNO" value="445-4072-1-ND"/>
@@ -2733,7 +2738,7 @@ Low profile connectors, straight&lt;p&gt;
 <part name="IC4" library="MojoDDS-library" deviceset="MIC5247" device="">
 <attribute name="PARTNO" value="576-1288-1-ND"/>
 </part>
-<part name="CB4" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.01u">
+<part name="CB4" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.01uF">
 <attribute name="PARTNO" value="478-5503-1-ND"/>
 </part>
 <part name="AGND28" library="supply1" deviceset="AGND" device=""/>
@@ -2762,7 +2767,7 @@ Low profile connectors, straight&lt;p&gt;
 <part name="IC2" library="MojoDDS-library" deviceset="MIC5247" device="">
 <attribute name="PARTNO" value="576-1288-1-ND"/>
 </part>
-<part name="CB2" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.01u">
+<part name="CB2" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.01uF">
 <attribute name="PARTNO" value="478-5503-1-ND"/>
 </part>
 <part name="AGND1" library="supply1" deviceset="AGND" device=""/>
@@ -2790,7 +2795,7 @@ Low profile connectors, straight&lt;p&gt;
 <part name="IC3" library="MojoDDS-library" deviceset="MIC5247" device="">
 <attribute name="PARTNO" value="576-1288-1-ND"/>
 </part>
-<part name="CB3" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.01u">
+<part name="CB3" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.01uF">
 <attribute name="PARTNO" value="478-5503-1-ND"/>
 </part>
 <part name="AGND12" library="supply1" deviceset="AGND" device=""/>
@@ -2818,27 +2823,22 @@ Low profile connectors, straight&lt;p&gt;
 <attribute name="PARTNO" value="478-4624-1-ND"/>
 </part>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="R3" library="rlc-jqi" deviceset="RES" device="0402" value="0">
-<attribute name="PARTNO" value="541-0.0YBCT-ND"/>
-</part>
+<part name="R3" library="rlc-jqi" deviceset="RES" device="0402" value="DNP"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="R4" library="rlc-jqi" deviceset="RES" device="0603" value="2k">
 <attribute name="PARTNO" value="P2.00KHCT-ND"/>
 </part>
 <part name="R5" library="rlc-jqi" deviceset="RES" device="0603" value="1k">
-<attribute name="PARTNO" value="311-1.0KGRCT-ND"/>
+<attribute name="PARTNO" value="P1.00KHCT-ND"/>
 </part>
 <part name="AGND22" library="supply1" deviceset="AGND" device=""/>
 <part name="R6" library="rlc-jqi" deviceset="RES" device="0402" value="0">
 <attribute name="PARTNO" value="541-0.0YBCT-ND"/>
 </part>
-<part name="SV2" library="con-harting-ml" deviceset="ML26" device="">
+<part name="SV2" library="con-harting-ml" deviceset="ML26" device="" value="2x13">
 <attribute name="PARTNO" value="S9173-ND"/>
 </part>
 <part name="SUPPLY20" library="supply2" deviceset="DGND" device=""/>
-<part name="RSET" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
-<attribute name="PARTNO" value="311-10KGRCT-ND"/>
-</part>
 <part name="LP1" library="Neal_DDS-library" deviceset="LFCN" device="">
 <attribute name="MINICIRCUITS" value="LFCN-320D+"/>
 </part>
@@ -2855,7 +2855,7 @@ Low profile connectors, straight&lt;p&gt;
 </part>
 <part name="AGND29" library="supply1" deviceset="AGND" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="DGND" device=""/>
-<part name="CP4" library="rlc-jqi" deviceset="CAP-POL" device="PANASONIC_F" value="220 uF">
+<part name="CP4" library="rlc-jqi" deviceset="CAP-POL" device="PANASONIC_F" value="220uF">
 <attribute name="PARTNO" value="PCE3955CT-ND"/>
 </part>
 <part name="C69" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0306" value="1uF">
@@ -2865,28 +2865,38 @@ Low profile connectors, straight&lt;p&gt;
 <part name="AGND41" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND42" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND25" library="supply1" deviceset="AGND" device=""/>
-<part name="RL1" library="jqi_passives" deviceset="R_SMD" device="R0402" value="50">
-<attribute name="PARTNO" value="RR05R49.9DCT-ND "/>
-</part>
-<part name="RL2" library="jqi_passives" deviceset="R_SMD" device="R0402" value="50">
-<attribute name="PARTNO" value="RR05R49.9DCT-ND"/>
-</part>
+<part name="RL1" library="jqi_passives" deviceset="R_SMD" device="R0402" value="DNP"/>
+<part name="RL2" library="jqi_passives" deviceset="R_SMD" device="R0402" value="DNP"/>
 <part name="AGND26" library="supply1" deviceset="AGND" device=""/>
-<part name="CIN1" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="DNP"/>
-<part name="CIN2" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="DNP"/>
-<part name="X1" library="connector-jqi" deviceset="UMC" device=""/>
-<part name="X2" library="connector-jqi" deviceset="UMC" device=""/>
-<part name="X3" library="connector-jqi" deviceset="UMC" device=""/>
-<part name="X4" library="connector-jqi" deviceset="UMC" device=""/>
+<part name="CIN1" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="1uF">
+<attribute name="PARTNO" value="445-9079-1-ND"/>
+</part>
+<part name="CIN2" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="1uF">
+<attribute name="PARTNO" value="445-9079-1-ND"/>
+</part>
+<part name="X1" library="connector-jqi" deviceset="UMC" device="" value="DNP"/>
+<part name="X2" library="connector-jqi" deviceset="UMC" device="" value="DNP"/>
+<part name="X3" library="connector-jqi" deviceset="UMC" device="" value="DNP"/>
+<part name="X4" library="connector-jqi" deviceset="UMC" device="" value="DNP"/>
 <part name="SUPPLY24" library="supply2" deviceset="DGND" device=""/>
-<part name="X5" library="connector-jqi" deviceset="UMC" device=""/>
+<part name="X5" library="connector-jqi" deviceset="UMC" device="" value="DNP"/>
 <part name="SUPPLY23" library="supply2" deviceset="DGND" device=""/>
-<part name="O-" library="Neal_DDS-library" deviceset="SMA" device=""/>
-<part name="O+" library="Neal_DDS-library" deviceset="SMA" device=""/>
-<part name="CLK" library="Neal_DDS-library" deviceset="SMA" device=""/>
-<part name="RPD2" library="jqi_passives" deviceset="R_SMD" device="R0402" value="4.7k"/>
+<part name="O-" library="Neal_DDS-library" deviceset="SMA" device="">
+<attribute name="PARTNO" value="WM9461-ND"/>
+</part>
+<part name="O+" library="Neal_DDS-library" deviceset="SMA" device="" value="DNP">
+<attribute name="PARTNO" value="*"/>
+</part>
+<part name="CLK" library="Neal_DDS-library" deviceset="SMA" device="" value="DNP">
+<attribute name="PARTNO" value="*"/>
+</part>
+<part name="RPD2" library="jqi_passives" deviceset="R_SMD" device="R0402" value="10k">
+<attribute name="PARTNO" value="P10.0KLCT-ND"/>
+</part>
 <part name="SUPPLY21" library="supply2" deviceset="DGND" device=""/>
-<part name="RPD1" library="jqi_passives" deviceset="R_SMD" device="R0402" value="4.7k"/>
+<part name="RPD1" library="jqi_passives" deviceset="R_SMD" device="R0402" value="10k">
+<attribute name="PARTNO" value="P10.0KLCT-ND"/>
+</part>
 <part name="IC1" library="Neal_DDS-library" deviceset="REG113" device="">
 <attribute name="PARTNO" value="REG113EA3.3/250CT-ND"/>
 </part>
@@ -2903,23 +2913,41 @@ Low profile connectors, straight&lt;p&gt;
 <part name="IC6" library="MojoDDS-library" deviceset="MIC5247" device="">
 <attribute name="PARTNO" value="576-1288-1-ND"/>
 </part>
-<part name="CB1" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="0.01u">
+<part name="CB1" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="0.01uF">
 <attribute name="PARTNO" value="399-1091-1-ND"/>
 </part>
 <part name="SUPPLY3" library="supply2" deviceset="DGND" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="DGND" device=""/>
-<part name="R7" library="rlc-jqi" deviceset="RES" device="0402" value="DNP (0)">
-<attribute name="PARTNO" value="541-0.0YBCT-ND"/>
+<part name="R7" library="rlc-jqi" deviceset="RES" device="0402" value="DNP">
+<attribute name="PARTNO" value="*"/>
 </part>
 <part name="R8" library="rlc-jqi" deviceset="RES" device="0402" value="0">
 <attribute name="PARTNO" value="541-0.0YBCT-ND"/>
 </part>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="C5" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="1nF"/>
-<part name="C3" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0204" value="0.1uF">
-<attribute name="PARTNO" value="478-4624-1-ND"/>
+<part name="JP1" library="pinhead" deviceset="PINHD-1X2" device="">
+<attribute name="PARTNO" value="WM4200-ND"/>
+</part>
+<part name="C5" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="6pF">
+<attribute name="PARTNO" value="1276-2134-1-ND"/>
+</part>
+<part name="RL3" library="jqi_passives" deviceset="R_SMD" device="R0402" value="50R">
+<attribute name="PARTNO" value="RR05R49.9DCT-ND "/>
+</part>
+<part name="RL4" library="jqi_passives" deviceset="R_SMD" device="R0402" value="50R">
+<attribute name="PARTNO" value="RR05R49.9DCT-ND"/>
 </part>
 <part name="AGND31" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND40" library="supply1" deviceset="AGND" device=""/>
+<part name="RSET" library="jqi_passives" deviceset="R_SMD" device="R0402" value="10k">
+<attribute name="PARTNO" value="P10.0KLCT-ND"/>
+</part>
+<part name="RL5" library="jqi_passives" deviceset="R_SMD" device="R0402" value="50R">
+<attribute name="PARTNO" value="RR05R49.9DCT-ND"/>
+</part>
+<part name="RL6" library="jqi_passives" deviceset="R_SMD" device="R0402" value="DNP"/>
+<part name="RL7" library="jqi_passives" deviceset="R_SMD" device="R0402" value="50R">
+<attribute name="PARTNO" value="RR05R49.9DCT-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -2931,14 +2959,24 @@ Run the error check and found:
 
 TO DO:
 Check DROVER</text>
+<wire x1="68.58" y1="175.26" x2="68.58" y2="182.88" width="0.1524" layer="98"/>
+<wire x1="68.58" y1="182.88" x2="88.9" y2="182.88" width="0.1524" layer="98"/>
+<wire x1="88.9" y1="182.88" x2="88.9" y2="175.26" width="0.1524" layer="98"/>
+<text x="63.5" y="185.42" size="1.778" layer="98">old DDS header footprint</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="86.36" y="53.34" rot="R90">
 <attribute name="PARTNO" x="86.36" y="53.34" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C2" gate="G$1" x="58.42" y="-38.1" rot="R90"/>
-<instance part="C1" gate="G$1" x="66.04" y="-27.94" rot="R90"/>
-<instance part="R2" gate="G$1" x="58.42" y="-22.86" rot="R90"/>
+<instance part="C2" gate="G$1" x="58.42" y="-38.1" rot="R90">
+<attribute name="PARTNO" x="58.42" y="-38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C1" gate="G$1" x="66.04" y="-27.94" rot="R90">
+<attribute name="PARTNO" x="66.04" y="-27.94" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="58.42" y="-22.86" rot="R90">
+<attribute name="PARTNO" x="58.42" y="-22.86" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="AGND8" gate="VR1" x="66.04" y="-5.08"/>
 <instance part="CRFCL1" gate="G$1" x="0" y="48.26" rot="R90">
 <attribute name="PARTNO" x="0" y="48.26" size="1.778" layer="96" rot="R90" display="off"/>
@@ -2956,9 +2994,6 @@ Check DROVER</text>
 <instance part="AGND50" gate="VR1" x="-76.2" y="25.4"/>
 <instance part="AGND54" gate="VR1" x="22.86" y="25.4"/>
 <instance part="AGND53" gate="VR1" x="-48.26" y="10.16"/>
-<instance part="R1" gate="G$1" x="-27.94" y="25.4" rot="R180">
-<attribute name="PARTNO" x="-27.94" y="25.4" size="1.778" layer="96" rot="R180" display="off"/>
-</instance>
 <instance part="AGND34" gate="VR1" x="-15.24" y="17.78"/>
 <instance part="SUPPLY14" gate="G$1" x="93.98" y="-10.16"/>
 <instance part="SUPPLY15" gate="G$1" x="109.22" y="-2.54"/>
@@ -2966,9 +3001,7 @@ Check DROVER</text>
 <instance part="SUPPLY17" gate="G$1" x="144.78" y="27.94"/>
 <instance part="SUPPLY18" gate="G$1" x="121.92" y="109.22"/>
 <instance part="SUPPLY19" gate="G$1" x="144.78" y="71.12"/>
-<instance part="R3" gate="G$1" x="-22.86" y="35.56">
-<attribute name="PARTNO" x="-22.86" y="35.56" size="1.778" layer="96" display="off"/>
-</instance>
+<instance part="R3" gate="G$1" x="-22.86" y="35.56"/>
 <instance part="+3V5" gate="G$1" x="-137.16" y="45.72"/>
 <instance part="R4" gate="G$1" x="-66.04" y="48.26">
 <attribute name="PARTNO" x="-66.04" y="48.26" size="1.778" layer="96" display="off"/>
@@ -2984,9 +3017,6 @@ Check DROVER</text>
 <attribute name="PARTNO" x="83.82" y="142.24" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SUPPLY20" gate="G$1" x="91.44" y="106.68"/>
-<instance part="RSET" gate="G$1" x="30.48" y="63.5">
-<attribute name="PARTNO" x="30.48" y="63.5" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="LP1" gate="G$1" x="-35.56" y="99.06" rot="R180">
 <attribute name="MINICIRCUITS" x="-35.56" y="99.06" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
@@ -3000,15 +3030,15 @@ Check DROVER</text>
 <instance part="AGND41" gate="VR1" x="-106.68" y="66.04"/>
 <instance part="AGND42" gate="VR1" x="-106.68" y="86.36"/>
 <instance part="AGND25" gate="VR1" x="-71.12" y="81.28"/>
-<instance part="RL1" gate="G$1" x="-71.12" y="91.44" rot="R90">
-<attribute name="PARTNO" x="-71.12" y="91.44" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
-<instance part="RL2" gate="G$1" x="-68.58" y="71.12" rot="R90">
-<attribute name="PARTNO" x="-68.58" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
+<instance part="RL1" gate="G$1" x="-71.12" y="91.44" rot="R90"/>
+<instance part="RL2" gate="G$1" x="-68.58" y="71.12" rot="R90"/>
 <instance part="AGND26" gate="VR1" x="-68.58" y="60.96"/>
-<instance part="CIN1" gate="G$1" x="-78.74" y="96.52" rot="R270"/>
-<instance part="CIN2" gate="G$1" x="-88.9" y="76.2" rot="R270"/>
+<instance part="CIN1" gate="G$1" x="-78.74" y="96.52" rot="R270">
+<attribute name="PARTNO" x="-78.74" y="96.52" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="CIN2" gate="G$1" x="-88.9" y="76.2" rot="R270">
+<attribute name="PARTNO" x="-88.9" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="X1" gate="G$1" x="119.38" y="-55.88" rot="R180"/>
 <instance part="X2" gate="G$1" x="119.38" y="-63.5" rot="R180"/>
 <instance part="X3" gate="G$1" x="119.38" y="-73.66" rot="R180"/>
@@ -3016,23 +3046,49 @@ Check DROVER</text>
 <instance part="SUPPLY24" gate="G$1" x="137.16" y="-83.82"/>
 <instance part="X5" gate="G$1" x="116.84" y="-43.18" rot="R180"/>
 <instance part="SUPPLY23" gate="G$1" x="76.2" y="129.54"/>
-<instance part="O-" gate="G$1" x="-106.68" y="101.6"/>
-<instance part="O+" gate="G$1" x="-106.68" y="76.2"/>
-<instance part="CLK" gate="G$1" x="-48.26" y="17.78"/>
-<instance part="RPD2" gate="G$1" x="170.18" y="160.02" rot="R90"/>
+<instance part="O-" gate="G$1" x="-106.68" y="101.6">
+<attribute name="PARTNO" x="-106.68" y="101.6" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="O+" gate="G$1" x="-106.68" y="76.2">
+<attribute name="PARTNO" x="-106.68" y="76.2" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="CLK" gate="G$1" x="-48.26" y="17.78">
+<attribute name="PARTNO" x="-48.26" y="17.78" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="RPD2" gate="G$1" x="170.18" y="160.02" rot="R90">
+<attribute name="PARTNO" x="170.18" y="160.02" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="SUPPLY21" gate="G$1" x="170.18" y="149.86"/>
-<instance part="RPD1" gate="G$1" x="121.92" y="124.46" rot="R90"/>
+<instance part="RPD1" gate="G$1" x="121.92" y="124.46" rot="R90">
+<attribute name="PARTNO" x="121.92" y="124.46" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="R7" gate="G$1" x="-132.08" y="60.96">
 <attribute name="PARTNO" x="-132.08" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="-121.92" y="53.34">
 <attribute name="PARTNO" x="-121.92" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C5" gate="G$1" x="-60.96" y="55.88" rot="R270"/>
-<instance part="C3" gate="G$1" x="60.96" y="-53.34">
-<attribute name="PARTNO" x="60.96" y="-53.34" size="1.778" layer="96" display="off"/>
+<instance part="C5" gate="G$1" x="-60.96" y="55.88" rot="R270">
+<attribute name="PARTNO" x="-60.96" y="55.88" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="AGND31" gate="VR1" x="60.96" y="-63.5"/>
+<instance part="RL3" gate="G$1" x="5.08" y="104.14" rot="R90">
+<attribute name="PARTNO" x="5.08" y="104.14" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="RL4" gate="G$1" x="7.62" y="66.04" rot="R90">
+<attribute name="PARTNO" x="7.62" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="AGND31" gate="VR1" x="7.62" y="55.88"/>
+<instance part="AGND40" gate="VR1" x="12.7" y="106.68"/>
+<instance part="RSET" gate="G$1" x="30.48" y="63.5" rot="R180">
+<attribute name="PARTNO" x="30.48" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="RL5" gate="G$1" x="-27.94" y="25.4" rot="R180">
+<attribute name="PARTNO" x="-27.94" y="25.4" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="RL6" gate="G$1" x="-96.52" y="96.52" rot="R90"/>
+<instance part="RL7" gate="G$1" x="-99.06" y="71.12" rot="R90">
+<attribute name="PARTNO" x="-99.06" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3101,11 +3157,11 @@ Check DROVER</text>
 <pinref part="U1" gate="G$1" pin="XTAL_SEL"/>
 <wire x1="38.1" y1="35.56" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
 <junction x="27.94" y="35.56"/>
-<pinref part="RSET" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="63.5" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="63.5" x2="20.32" y2="60.96" width="0.1524" layer="91"/>
 <junction x="20.32" y="60.96"/>
 <label x="27.94" y="88.9" size="1.778" layer="95" rot="R90"/>
+<pinref part="RSET" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="EP"/>
@@ -3148,10 +3204,10 @@ Check DROVER</text>
 <pinref part="CLK" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="AGND34" gate="VR1" pin="AGND"/>
 <wire x1="-22.86" y1="25.4" x2="-15.24" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="25.4" x2="-15.24" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="RL5" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="AGND22" gate="VR1" pin="AGND"/>
@@ -3189,12 +3245,22 @@ Check DROVER</text>
 <segment>
 <pinref part="AGND42" gate="VR1" pin="AGND"/>
 <pinref part="O-" gate="G$1" pin="GND"/>
-<wire x1="-106.68" y1="88.9" x2="-106.68" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="88.9" x2="-106.68" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="RL6" gate="G$1" pin="1"/>
+<wire x1="-106.68" y1="91.44" x2="-106.68" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="91.44" x2="-106.68" y2="91.44" width="0.1524" layer="91"/>
+<junction x="-106.68" y="91.44"/>
 </segment>
 <segment>
 <pinref part="AGND41" gate="VR1" pin="AGND"/>
 <pinref part="O+" gate="G$1" pin="GND"/>
-<wire x1="-106.68" y1="73.66" x2="-106.68" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="73.66" x2="-106.68" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="71.12" x2="-106.68" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="71.12" x2="-104.14" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="71.12" x2="-104.14" y2="66.04" width="0.1524" layer="91"/>
+<junction x="-106.68" y="71.12"/>
+<pinref part="RL7" gate="G$1" pin="1"/>
+<wire x1="-104.14" y1="66.04" x2="-99.06" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AGND25" gate="VR1" pin="AGND"/>
@@ -3207,18 +3273,24 @@ Check DROVER</text>
 <wire x1="-68.58" y1="63.5" x2="-68.58" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="RL4" gate="G$1" pin="1"/>
 <pinref part="AGND31" gate="VR1" pin="AGND"/>
-<wire x1="60.96" y1="-58.42" x2="60.96" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="58.42" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="AGND40" gate="VR1" pin="AGND"/>
+<wire x1="12.7" y1="109.22" x2="12.7" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="114.3" x2="5.08" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="RL3" gate="G$1" pin="2"/>
+<wire x1="5.08" y1="114.3" x2="5.08" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AVDD_P3" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="P$1"/>
 <wire x1="58.42" y1="-43.18" x2="58.42" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="-45.72" x2="60.96" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-45.72" x2="66.04" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="P$1"/>
-<wire x1="60.96" y1="-45.72" x2="66.04" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="-45.72" x2="66.04" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="AVDD(1.8V)"/>
 <wire x1="60.96" y1="5.08" x2="60.96" y2="-12.7" width="0.1524" layer="91"/>
@@ -3227,9 +3299,6 @@ Check DROVER</text>
 <wire x1="71.12" y1="-45.72" x2="66.04" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="66.04" y="-45.72"/>
 <label x="45.72" y="-45.72" size="1.778" layer="95"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="-50.8" x2="60.96" y2="-45.72" width="0.1524" layer="91"/>
-<junction x="60.96" y="-45.72"/>
 </segment>
 </net>
 <net name="AVDD_P6" class="0">
@@ -3266,11 +3335,15 @@ Check DROVER</text>
 </net>
 <net name="IOUT_N" class="1">
 <segment>
-<wire x1="-5.08" y1="96.52" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="96.52" x2="5.08" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="!IOUT"/>
+<wire x1="5.08" y1="86.36" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="73.66" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="LP1" gate="G$1" pin="RF_IN"/>
 <wire x1="-17.78" y1="96.52" x2="-5.08" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="RL3" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="99.06" x2="5.08" y2="86.36" width="0.1524" layer="91"/>
+<junction x="5.08" y="86.36"/>
 </segment>
 </net>
 <net name="IOUT_P" class="1">
@@ -3279,7 +3352,11 @@ Check DROVER</text>
 <wire x1="15.24" y1="71.12" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="LP2" gate="G$1" pin="RF_IN"/>
 <wire x1="10.16" y1="76.2" x2="15.24" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="76.2" x2="10.16" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="76.2" x2="7.62" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="RL4" gate="G$1" pin="2"/>
+<wire x1="7.62" y1="76.2" x2="10.16" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="71.12" x2="7.62" y2="76.2" width="0.1524" layer="91"/>
+<junction x="7.62" y="76.2"/>
 </segment>
 </net>
 <net name="A+3V3" class="0">
@@ -3311,7 +3388,6 @@ Check DROVER</text>
 </net>
 <net name="CLK_IN" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-38.1" y1="22.86" x2="-38.1" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="25.4" x2="-38.1" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="P$1"/>
@@ -3322,6 +3398,7 @@ Check DROVER</text>
 <wire x1="-48.26" y1="17.78" x2="-45.72" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="17.78" x2="-45.72" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="22.86" x2="-38.1" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="RL5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DVDD_1P8" class="0">
@@ -3708,8 +3785,8 @@ Check DROVER</text>
 <net name="N$6" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="DAC_RSET"/>
-<pinref part="RSET" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="63.5" x2="35.56" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="RSET" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="MASTER_RESET" class="0">
@@ -3743,8 +3820,11 @@ Check DROVER</text>
 <pinref part="CIN1" gate="G$1" pin="2"/>
 <wire x1="-83.82" y1="96.52" x2="-88.9" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="O-" gate="G$1" pin="1"/>
-<wire x1="-106.68" y1="101.6" x2="-88.9" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="101.6" x2="-96.52" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="101.6" x2="-88.9" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="101.6" x2="-88.9" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="RL6" gate="G$1" pin="2"/>
+<junction x="-96.52" y="101.6"/>
 </segment>
 </net>
 <net name="SYNC_IN_P" class="0">
@@ -3872,7 +3952,10 @@ Check DROVER</text>
 <segment>
 <pinref part="CIN2" gate="G$1" pin="2"/>
 <pinref part="O+" gate="G$1" pin="1"/>
-<wire x1="-106.68" y1="76.2" x2="-93.98" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="76.2" x2="-99.06" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="RL7" gate="G$1" pin="2"/>
+<wire x1="-99.06" y1="76.2" x2="-93.98" y2="76.2" width="0.1524" layer="91"/>
+<junction x="-99.06" y="76.2"/>
 </segment>
 </net>
 </nets>
@@ -4108,7 +4191,9 @@ Check DROVER</text>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="68.58" y="10.16"/>
 <instance part="SUPPLY5" gate="G$1" x="27.94" y="17.78"/>
-<instance part="JP1" gate="G$1" x="-144.78" y="45.72" rot="R180"/>
+<instance part="JP1" gate="G$1" x="-144.78" y="45.72" rot="R180">
+<attribute name="PARTNO" x="-144.78" y="45.72" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
