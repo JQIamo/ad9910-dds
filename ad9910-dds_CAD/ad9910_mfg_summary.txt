@@ -16,9 +16,9 @@ Layer count: 4
 1 oz copper, 0.062" FR4
 
 Holes: 4
-Vias: 304
-Total drill count: 336
-SMD Pad count: 322
+Vias: 324
+Total drill count: 356
+SMD Pad count: 326
 
 Smallest drill: 15 mil
 Largest drill: 125 mil
@@ -54,4 +54,4 @@ Population details
 * There are some inverted SMD packages (eg, 0306, 0204, 0612) which must be placed.
 
 BOM line items: 24
-Total placements: 87 (85 SMD, 2 Through Hole)
+Total placements: 89 (87 SMD, 2 Through Hole)

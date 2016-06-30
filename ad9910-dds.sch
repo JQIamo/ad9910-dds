@@ -2744,7 +2744,6 @@ Low-noise, low-dropout linear regulator with low ground pin current. It has very
 <part name="SV1" library="ad9910-dds" deviceset="ML26" device="" value="2x13">
 <attribute name="PARTNO" value="S9173-ND"/>
 </part>
-<part name="SUPPLY3" library="ad9910-dds" deviceset="DGND" device=""/>
 <part name="RF2" library="ad9910-dds" deviceset="LFCN" device="">
 <attribute name="MINICIRCUITS" value="LFCN-320D+"/>
 </part>
@@ -2796,10 +2795,6 @@ Low-noise, low-dropout linear regulator with low ground pin current. It has very
 <part name="CLK" library="ad9910-dds" deviceset="SMA" device="" value="DNP">
 <attribute name="PARTNO" value="*"/>
 </part>
-<part name="R17" library="ad9910-dds" deviceset="R_SMD" device="R0402" value="10k">
-<attribute name="PARTNO" value="P10.0KLCT-ND"/>
-</part>
-<part name="SUPPLY10" library="ad9910-dds" deviceset="DGND" device=""/>
 <part name="R16" library="ad9910-dds" deviceset="R_SMD" device="R0402" value="10k">
 <attribute name="PARTNO" value="P10.0KLCT-ND"/>
 </part>
@@ -2863,6 +2858,19 @@ Low-noise, low-dropout linear regulator with low ground pin current. It has very
 <part name="C21" library="ad9910-dds" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="10nF">
 <attribute name="PARTNO" value="399-1091-1-ND"/>
 </part>
+<part name="X6" library="ad9910-dds" deviceset="UMC" device="" value="DNP"/>
+<part name="SUPPLY25" library="ad9910-dds" deviceset="DGND" device=""/>
+<part name="R18" library="ad9910-dds" deviceset="R_SMD" device="R0402" value="10k">
+<attribute name="PARTNO" value="P10.0KLCT-ND"/>
+</part>
+<part name="R19" library="ad9910-dds" deviceset="R_SMD" device="R0402" value="10k">
+<attribute name="PARTNO" value="P10.0KLCT-ND"/>
+</part>
+<part name="SUPPLY26" library="ad9910-dds" deviceset="DGND" device=""/>
+<part name="R20" library="ad9910-dds" deviceset="R_SMD" device="R0402" value="10k">
+<attribute name="PARTNO" value="P10.0KLCT-ND"/>
+</part>
+<part name="SUPPLY3" library="ad9910-dds" deviceset="DGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2874,10 +2882,10 @@ Run the error check and found:
 
 TO DO:
 Check DROVER</text>
-<wire x1="68.58" y1="175.26" x2="68.58" y2="182.88" width="0.1524" layer="98"/>
-<wire x1="68.58" y1="182.88" x2="88.9" y2="182.88" width="0.1524" layer="98"/>
-<wire x1="88.9" y1="182.88" x2="88.9" y2="175.26" width="0.1524" layer="98"/>
-<text x="63.5" y="185.42" size="1.778" layer="98">old DDS header footprint</text>
+<wire x1="66.04" y1="175.26" x2="66.04" y2="182.88" width="0.1524" layer="98"/>
+<wire x1="66.04" y1="182.88" x2="86.36" y2="182.88" width="0.1524" layer="98"/>
+<wire x1="86.36" y1="182.88" x2="86.36" y2="175.26" width="0.1524" layer="98"/>
+<text x="58.42" y="185.42" size="1.778" layer="98">old DDS header footprint</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="86.36" y="53.34" rot="R90">
@@ -2931,7 +2939,6 @@ Check DROVER</text>
 <instance part="SV1" gate="1" x="83.82" y="142.24" rot="R90">
 <attribute name="PARTNO" x="83.82" y="142.24" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="SUPPLY3" gate="G$1" x="91.44" y="106.68"/>
 <instance part="RF2" gate="G$1" x="-35.56" y="99.06" rot="R180">
 <attribute name="MINICIRCUITS" x="-35.56" y="99.06" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
@@ -2970,10 +2977,6 @@ Check DROVER</text>
 <instance part="CLK" gate="G$1" x="-48.26" y="17.78">
 <attribute name="PARTNO" x="-48.26" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R17" gate="G$1" x="170.18" y="160.02" rot="R90">
-<attribute name="PARTNO" x="170.18" y="160.02" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
-<instance part="SUPPLY10" gate="G$1" x="170.18" y="149.86"/>
 <instance part="R16" gate="G$1" x="121.92" y="124.46" rot="R90">
 <attribute name="PARTNO" x="121.92" y="124.46" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -3004,6 +3007,19 @@ Check DROVER</text>
 <instance part="R3" gate="G$1" x="-99.06" y="71.12" rot="R90">
 <attribute name="PARTNO" x="-99.06" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
+<instance part="X6" gate="G$1" x="127" y="142.24" rot="R180"/>
+<instance part="SUPPLY25" gate="G$1" x="137.16" y="144.78"/>
+<instance part="R18" gate="G$1" x="104.14" y="195.58">
+<attribute name="PARTNO" x="104.14" y="195.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R19" gate="G$1" x="104.14" y="187.96">
+<attribute name="PARTNO" x="104.14" y="187.96" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SUPPLY26" gate="G$1" x="134.62" y="187.96"/>
+<instance part="R20" gate="G$1" x="60.96" y="124.46" rot="R180">
+<attribute name="PARTNO" x="60.96" y="124.46" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="SUPPLY3" gate="G$1" x="50.8" y="121.92"/>
 </instances>
 <busses>
 </busses>
@@ -3434,17 +3450,6 @@ Check DROVER</text>
 <wire x1="134.62" y1="73.66" x2="144.78" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="DRHOLD"/>
-<wire x1="86.36" y1="101.6" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="104.14" x2="86.36" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="DRCTL"/>
-<wire x1="88.9" y1="101.6" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
-<junction x="86.36" y="104.14"/>
-<pinref part="SUPPLY3" gate="G$1" pin="DGND"/>
-<wire x1="86.36" y1="109.22" x2="91.44" y2="109.22" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="X5" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="-81.28" x2="111.76" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="-81.28" x2="111.76" y2="-78.74" width="0.1524" layer="91"/>
@@ -3478,14 +3483,10 @@ Check DROVER</text>
 <junction x="137.16" y="-78.74"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="1" pin="2"/>
-<wire x1="99.06" y1="134.62" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="1" pin="4"/>
-<wire x1="99.06" y1="132.08" x2="96.52" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="132.08" x2="96.52" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="1" pin="6"/>
 <wire x1="96.52" y1="132.08" x2="93.98" y2="132.08" width="0.1524" layer="91"/>
-<junction x="96.52" y="132.08"/>
 <wire x1="93.98" y1="134.62" x2="93.98" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="1" pin="8"/>
 <wire x1="93.98" y1="132.08" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
@@ -3530,9 +3531,27 @@ Check DROVER</text>
 <pinref part="SUPPLY1" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="R17" gate="G$1" pin="1"/>
-<pinref part="SUPPLY10" gate="G$1" pin="DGND"/>
-<wire x1="170.18" y1="154.94" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="X6" gate="G$1" pin="2"/>
+<wire x1="124.46" y1="144.78" x2="124.46" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="149.86" x2="137.16" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="SUPPLY25" gate="G$1" pin="DGND"/>
+<wire x1="137.16" y1="149.86" x2="137.16" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="109.22" y1="195.58" x2="116.84" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="SUPPLY26" gate="G$1" pin="DGND"/>
+<wire x1="116.84" y1="195.58" x2="134.62" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="195.58" x2="134.62" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="187.96" x2="116.84" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="187.96" x2="116.84" y2="195.58" width="0.1524" layer="91"/>
+<junction x="116.84" y="195.58"/>
+</segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="SUPPLY3" gate="G$1" pin="DGND"/>
+<wire x1="55.88" y1="124.46" x2="50.8" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDIO" class="0">
@@ -3542,9 +3561,9 @@ Check DROVER</text>
 <label x="76.2" y="111.76" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<label x="78.74" y="162.56" size="1.778" layer="95" rot="R90"/>
-<pinref part="SV1" gate="1" pin="17"/>
-<wire x1="78.74" y1="167.64" x2="78.74" y2="149.86" width="0.1524" layer="91"/>
+<label x="76.2" y="165.1" size="1.778" layer="95" rot="R90"/>
+<wire x1="76.2" y1="170.18" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="19"/>
 </segment>
 </net>
 <net name="OSK" class="0">
@@ -3554,9 +3573,9 @@ Check DROVER</text>
 <label x="93.98" y="114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<label x="81.28" y="162.56" size="1.778" layer="95" rot="R90"/>
-<pinref part="SV1" gate="1" pin="15"/>
-<wire x1="81.28" y1="167.64" x2="81.28" y2="149.86" width="0.1524" layer="91"/>
+<label x="78.74" y="165.1" size="1.778" layer="95" rot="R90"/>
+<wire x1="78.74" y1="170.18" x2="78.74" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="17"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -3566,46 +3585,46 @@ Check DROVER</text>
 <label x="71.12" y="111.76" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<label x="76.2" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="SV1" gate="1" pin="19"/>
-<wire x1="76.2" y1="167.64" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
+<label x="73.66" y="162.56" size="1.778" layer="95" rot="R90"/>
+<wire x1="73.66" y1="170.18" x2="73.66" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="21"/>
 </segment>
 </net>
 <net name="!CS" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="!CS"/>
-<wire x1="68.58" y1="101.6" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
-<label x="68.58" y="114.3" size="1.778" layer="95" rot="R90"/>
+<wire x1="68.58" y1="101.6" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
+<label x="68.58" y="111.76" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<label x="73.66" y="170.18" size="1.778" layer="95" rot="R90"/>
-<pinref part="SV1" gate="1" pin="21"/>
-<wire x1="73.66" y1="170.18" x2="73.66" y2="149.86" width="0.1524" layer="91"/>
+<label x="71.12" y="172.72" size="1.778" layer="95" rot="R90"/>
+<wire x1="71.12" y1="172.72" x2="71.12" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="23"/>
 </segment>
 </net>
 <net name="I/O_RESET" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="I/O_RESET"/>
-<wire x1="66.04" y1="101.6" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="101.6" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
 <label x="66.04" y="104.14" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<label x="71.12" y="160.02" size="1.778" layer="95" rot="R90"/>
-<pinref part="SV1" gate="1" pin="23"/>
-<wire x1="71.12" y1="167.64" x2="71.12" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="2"/>
+<wire x1="99.06" y1="134.62" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="124.46" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<junction x="66.04" y="124.46"/>
 </segment>
 </net>
 <net name="DROVER" class="0">
-<segment>
-<pinref part="SV1" gate="1" pin="25"/>
-<wire x1="68.58" y1="149.86" x2="68.58" y2="157.48" width="0.1524" layer="91"/>
-<label x="68.58" y="152.4" size="1.778" layer="95" rot="R90"/>
-</segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="DROVER"/>
 <wire x1="91.44" y1="101.6" x2="91.44" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="73.66" x2="68.58" y2="73.66" width="0.1524" layer="91"/>
 <label x="71.12" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="1" pin="3"/>
+<wire x1="96.52" y1="172.72" x2="96.52" y2="149.86" width="0.1524" layer="91"/>
+<label x="96.52" y="162.56" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="I/O_UPDATE" class="0">
@@ -3615,9 +3634,9 @@ Check DROVER</text>
 <label x="96.52" y="106.68" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<label x="88.9" y="162.56" size="1.778" layer="95" rot="R90"/>
-<pinref part="SV1" gate="1" pin="9"/>
-<wire x1="88.9" y1="167.64" x2="88.9" y2="149.86" width="0.1524" layer="91"/>
+<label x="86.36" y="165.1" size="1.778" layer="95" rot="R90"/>
+<wire x1="86.36" y1="170.18" x2="86.36" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="11"/>
 </segment>
 </net>
 <net name="PROFILE2" class="0">
@@ -3630,9 +3649,9 @@ Check DROVER</text>
 <wire x1="121.92" y1="132.08" x2="114.3" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="91.44" y="162.56" size="1.778" layer="95" rot="R90"/>
-<pinref part="SV1" gate="1" pin="7"/>
-<wire x1="91.44" y1="167.64" x2="91.44" y2="149.86" width="0.1524" layer="91"/>
+<label x="88.9" y="165.1" size="1.778" layer="95" rot="R90"/>
+<wire x1="88.9" y1="170.18" x2="88.9" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="9"/>
 </segment>
 </net>
 <net name="PROFILE1" class="0">
@@ -3642,9 +3661,9 @@ Check DROVER</text>
 <label x="111.76" y="114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<label x="86.36" y="162.56" size="1.778" layer="95" rot="R90"/>
-<pinref part="SV1" gate="1" pin="11"/>
-<wire x1="86.36" y1="167.64" x2="86.36" y2="149.86" width="0.1524" layer="91"/>
+<label x="83.82" y="165.1" size="1.778" layer="95" rot="R90"/>
+<wire x1="83.82" y1="170.18" x2="83.82" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="13"/>
 </segment>
 </net>
 <net name="PROFILE0" class="0">
@@ -3654,9 +3673,9 @@ Check DROVER</text>
 <label x="109.22" y="114.3" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<label x="83.82" y="162.56" size="1.778" layer="95" rot="R90"/>
-<pinref part="SV1" gate="1" pin="13"/>
-<wire x1="83.82" y1="167.64" x2="83.82" y2="149.86" width="0.1524" layer="91"/>
+<label x="81.28" y="165.1" size="1.778" layer="95" rot="R90"/>
+<wire x1="81.28" y1="170.18" x2="81.28" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="1" pin="15"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -3688,13 +3707,11 @@ Check DROVER</text>
 <net name="SYNC_CLK" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SYNC_CLK"/>
-<wire x1="106.68" y1="101.6" x2="106.68" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="101.6" x2="106.68" y2="142.24" width="0.1524" layer="91"/>
 <label x="106.68" y="109.22" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<label x="93.98" y="162.56" size="1.778" layer="95" rot="R90"/>
-<pinref part="SV1" gate="1" pin="5"/>
-<wire x1="93.98" y1="167.64" x2="93.98" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="X6" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="142.24" x2="124.46" y2="142.24" width="0.1524" layer="91"/>
+<label x="111.76" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -3709,15 +3726,11 @@ Check DROVER</text>
 <pinref part="U1" gate="G$1" pin="MASTER_RESET"/>
 <wire x1="88.9" y1="5.08" x2="88.9" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-20.32" x2="160.02" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="-20.32" x2="160.02" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="167.64" x2="96.52" y2="167.64" width="0.1524" layer="91"/>
-<label x="119.38" y="167.64" size="1.778" layer="95"/>
-<pinref part="SV1" gate="1" pin="3"/>
-<wire x1="96.52" y1="167.64" x2="96.52" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="165.1" x2="170.18" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="167.64" x2="160.02" y2="167.64" width="0.1524" layer="91"/>
-<junction x="160.02" y="167.64"/>
+<wire x1="160.02" y1="-20.32" x2="160.02" y2="200.66" width="0.1524" layer="91"/>
+<label x="68.58" y="154.94" size="1.778" layer="95" rot="R90"/>
+<pinref part="SV1" gate="1" pin="25"/>
+<wire x1="160.02" y1="200.66" x2="68.58" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="200.66" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -3793,7 +3806,7 @@ Check DROVER</text>
 <label x="81.28" y="-33.02" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="SYNC_SMP_ERR" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SYNC_SMP_ERR"/>
 <wire x1="83.82" y1="5.08" x2="83.82" y2="-48.26" width="0.1524" layer="91"/>
@@ -3871,6 +3884,34 @@ Check DROVER</text>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="-99.06" y1="76.2" x2="-93.98" y2="76.2" width="0.1524" layer="91"/>
 <junction x="-99.06" y="76.2"/>
+</segment>
+</net>
+<net name="DRHOLD" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="DRHOLD"/>
+<wire x1="86.36" y1="101.6" x2="86.36" y2="119.38" width="0.1524" layer="91"/>
+<label x="86.36" y="101.6" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="1" pin="7"/>
+<wire x1="91.44" y1="149.86" x2="91.44" y2="195.58" width="0.1524" layer="91"/>
+<label x="91.44" y="162.56" size="1.778" layer="95" rot="R90"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="195.58" x2="91.44" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRCTL" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="DRCTL"/>
+<wire x1="88.9" y1="101.6" x2="88.9" y2="119.38" width="0.1524" layer="91"/>
+<label x="88.9" y="101.6" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="1" pin="5"/>
+<wire x1="93.98" y1="187.96" x2="93.98" y2="149.86" width="0.1524" layer="91"/>
+<label x="93.98" y="162.56" size="1.778" layer="95" rot="R90"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="187.96" x2="93.98" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
