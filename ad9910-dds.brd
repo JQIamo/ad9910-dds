@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -193,6 +193,8 @@ tag: v1.0</text>
 <text x="39.37" y="12.446" size="1.27" layer="22" rot="MR90">SYNC_IN</text>
 <text x="41.402" y="19.05" size="1.27" layer="22" rot="MR180">-</text>
 <text x="41.402" y="14.986" size="1.27" layer="22" rot="MR180">+</text>
+<dimension x1="56.3118" y1="5.842" x2="69.85" y2="3.81" x3="63.0809" y3="-15.24" textsize="1.778" layer="47" dtype="horizontal" unit="inch" precision="3"/>
+<dimension x1="56.3118" y1="5.842" x2="69.85" y2="3.81" x3="96.52" y3="4.826" textsize="1.778" layer="47" dtype="vertical" unit="inch" precision="3"/>
 </plain>
 <libraries>
 <library name="JQI_Logo">
